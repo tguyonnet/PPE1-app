@@ -1,6 +1,6 @@
 <?php
 
-namespace App\V\Career;
+namespace App\V\Absence;
 
 
 use \RedBeanPHP\R as R;
@@ -13,7 +13,7 @@ class  ListeView extends \Core\View {
      */
     public function __construct()
     {
-        $this->setFile('Career/listeTemplate.php');
+        $this->setFile('Absence/listeTemplate.php');
 
     }
 
