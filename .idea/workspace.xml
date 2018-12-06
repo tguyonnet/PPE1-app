@@ -2,219 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ff984a-2c3e-4e5c-bffb-aa450a3fca35" name="Default Changelist" comment="add files">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sanofi_app_v0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/C/DashBoardController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/C/FormationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/M/CategorieModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/M/ClientModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/M/ConducteurModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/M/Conducteur_PermisModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/M/DemandeTransportModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/M/DevisModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/M/MarchandiseTypeModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/M/MarchandiseType_ModeleVehiculeModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/M/MarqueModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/M/ModeleModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/M/PermisModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/M/TrajetModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/M/VehiculeModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Templates/DashBoard/listeTemplate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Templates/Formation/listeTemplate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Templates/_helper/ReservationHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Templates/_helper/footer-sb-admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Templates/_helper/header-sb-admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/V/DashBoard/ListeView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/V/Formation/ListeView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/DataObject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/FormElement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Params.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/css/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/.jsbeautifyrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/blank.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/cards.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/charts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/css/sb-admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/css/sb-admin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/forgot-password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/js/sb-admin-charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/js/sb-admin-charts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/js/sb-admin-datatables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/js/sb-admin-datatables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/js/sb-admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/js/sb-admin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/blank.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/cards.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/charts.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/forgot-password.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/includes/css/core.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/includes/css/custom.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/includes/footer.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/includes/js/core.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/includes/js/custom.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/includes/modals/logout.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/includes/navbar.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/includes/scroll-to-top.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/login.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/navbar.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/register.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/pug/tables.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/scss/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/scss/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/scss/_global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/scss/_login.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/scss/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/scss/navbar/_navbar_colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/scss/navbar/_navbar_fixed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/scss/navbar/_navbar_global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/scss/navbar/_navbar_static.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/scss/navbar/_navbar_toggle.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/scss/sb-admin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/tables.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/chart.js/Chart.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/chart.js/Chart.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/chart.js/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/chart.js/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/datatables/dataTables.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/datatables/dataTables.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/datatables/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/jquery-easing/jquery.easing.compatibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/jquery-easing/jquery.easing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/jquery-easing/jquery.easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/jquery/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/jquery/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/sb-admin/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/C/CareerController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Templates/Career/listeTemplate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/V/Career/ListeView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sanofi_app_v0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sanofi_app_v0.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/C/FormationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/C/FormationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -226,10 +20,29 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/C/CareerController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../sanofi_v0" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -246,13 +59,16 @@
         <option value="$PROJECT_DIR$/Core/Config.php" />
         <option value="$PROJECT_DIR$/App/Templates/_helper/footer-sb-admin.php" />
         <option value="$PROJECT_DIR$/App/Templates/_helper/ReservationHelper.php" />
-        <option value="$PROJECT_DIR$/App/C/FormationController.php" />
         <option value="$PROJECT_DIR$/App/Templates/DashBoard/dashboardView.php" />
         <option value="$PROJECT_DIR$/App/Templates/Formation/listeTemplate.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/App/V/DashBoard/ListeView.php" />
         <option value="$PROJECT_DIR$/App/Templates/_helper/header-sb-admin.php" />
         <option value="$PROJECT_DIR$/App/V/Formation/ListeView.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/App/Templates/Career/listeTemplate.php" />
+        <option value="$PROJECT_DIR$/App/V/Career/ListeView.php" />
+        <option value="$PROJECT_DIR$/App/C/FormationController.php" />
+        <option value="$PROJECT_DIR$/App/C/CareerController.php" />
       </list>
     </option>
   </component>
@@ -281,6 +97,76 @@
               <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
               <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+              <item name="_helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Career" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Formation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="V" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="V" type="462c0819:PsiDirectoryNode" />
+              <item name="Career" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="V" type="462c0819:PsiDirectoryNode" />
+              <item name="Formation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -297,9 +183,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/App/Templates" />
       <recent name="$PROJECT_DIR$/App/V" />
       <recent name="$PROJECT_DIR$/App/C" />
+      <recent name="$PROJECT_DIR$/App/Templates" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -331,6 +217,8 @@
       <workItem from="1544037763647" duration="4498000" />
       <workItem from="1544042273118" duration="309000" />
       <workItem from="1544042583652" duration="1313000" />
+      <workItem from="1544099753843" duration="740000" />
+      <workItem from="1544101000371" duration="2359000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1543494761666</created>
@@ -399,12 +287,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31572000" />
+    <option name="totallyTimeSpent" value="34671000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1918" height="903" extended-state="6" />
+    <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19411765" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19850586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -439,7 +328,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/M/ConducteurModel.phpData" />
     <entry file="file://$PROJECT_DIR$/App/M/DemandeTransportModel.phpData" />
     <entry file="file://$PROJECT_DIR$/App/M/DevisModel.phpData" />
     <entry file="file://$PROJECT_DIR$/App/M/MarchandiseType_ModeleVehiculeModel.phpData" />
@@ -449,23 +337,8 @@
     <entry file="file://$PROJECT_DIR$/App/M/TrajetModel.phpData" />
     <entry file="file://$PROJECT_DIR$/App/M/VehiculeModel.phpData" />
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php" />
-    <entry file="file://$PROJECT_DIR$/../sanofi_v0/www/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sanofi_v0/indexFaker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2460">
-          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
-          <folding>
-            <element signature="e#141#197#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../sanofi_v0/www/index.php" />
+    <entry file="file://$PROJECT_DIR$/../sanofi_v0/indexFaker.php" />
     <entry file="file://$PROJECT_DIR$/App/M/CategorieModel.phpData" />
     <entry file="file://$PROJECT_DIR$/App/M/ClientModel.phpData" />
     <entry file="file://$PROJECT_DIR$/App/M/Conducteur_PermisModel.phpData" />
@@ -480,34 +353,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/Config.php" />
     <entry file="file://$PROJECT_DIR$/www/index.php" />
-    <entry file="file://$PROJECT_DIR$/App/Templates/_helper/footer-sb-admin.php" />
     <entry file="file://$PROJECT_DIR$/App/Templates/_helper/header.php" />
     <entry file="file://$PROJECT_DIR$/App/M/ClientModel.php" />
     <entry file="file://$PROJECT_DIR$/App/Templates/_helper/ReservationHelper.php" />
     <entry file="file://$PROJECT_DIR$/App/Templates/DashBoard/listeTemplate.php" />
-    <entry file="file://$PROJECT_DIR$/Core/View.php" />
-    <entry file="file://$PROJECT_DIR$/Core/Params.php" />
-    <entry file="file://$PROJECT_DIR$/Core/Model.php" />
     <entry file="file://$PROJECT_DIR$/Core/FormElement.php" />
     <entry file="file://$PROJECT_DIR$/Core/Form.php" />
     <entry file="file://$PROJECT_DIR$/Core/Controller.php" />
     <entry file="file://$PROJECT_DIR$/App/C/DashBoardController.php" />
-    <entry file="file://$PROJECT_DIR$/App/Templates/_helper/header-sb-admin.php" />
     <entry file="file://$PROJECT_DIR$/composer.json" />
-    <entry file="file://$PROJECT_DIR$/App/C/FormationController.php" />
-    <entry file="file://$PROJECT_DIR$/index.php" />
-    <entry file="file://$PROJECT_DIR$/../sanofi_v0/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
-          <folding>
-            <element signature="e#59#115#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Templates/Formation/listeTemplate.php" />
-    <entry file="file://$PROJECT_DIR$/App/V/Formation/ListeView.php" />
+    <entry file="file://$PROJECT_DIR$/../sanofi_v0/index.php" />
     <entry file="file://$PROJECT_DIR$/App/M/Conducteur_PermisModel.php" />
     <entry file="file://$PROJECT_DIR$/App/M/ConducteurModel.php" />
     <entry file="file://$PROJECT_DIR$/App/M/DevisModel.php" />
@@ -518,5 +373,69 @@
     <entry file="file://$PROJECT_DIR$/App/M/TrajetModel.php" />
     <entry file="file://$PROJECT_DIR$/App/M/VehiculeModel.php" />
     <entry file="file://$PROJECT_DIR$/App/V/DashBoard/ListeView.php" />
+    <entry file="file://$PROJECT_DIR$/App/Templates/_helper/footer-sb-admin.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Templates/_helper/header-sb-admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/View.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Model.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/V/Formation/ListeView.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Templates/Career/listeTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Templates/Formation/listeTemplate.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/V/Career/ListeView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/C/FormationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" selection-start-line="22" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/C/CareerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

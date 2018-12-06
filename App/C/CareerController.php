@@ -8,15 +8,15 @@
 
 namespace App\C;
 
-use App\V\Formation\ListeView;
+use App\V\Career\ListeView;
 
 
 /**
- * Description of FormationController
+ * Description of CareerController
  *
  * @author usersio
  */
-class FormationController extends \Core\Controller {
+class CareerController extends \Core\Controller {
 
     public function listeAction() {
 

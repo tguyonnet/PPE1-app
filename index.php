@@ -28,6 +28,13 @@ switch(Core\Params::get('c')){
     case 'Formation':
         $controller = new \App\C\FormationController();
         break;
+    case 'Career':
+        $controller = new \App\C\CareerController();
+        break;
+    case 'Absence':
+        $controller = new \App\C\AbsenceController();
+        break;
+
     default:
         $controller = new \App\C\DashBoardController();
         break;
