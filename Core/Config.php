@@ -1,15 +1,13 @@
 <?php
+class Config {
+	// Paramètres pour l'accès à la base de données
+	const BDD_HOST      = 'localhost';
+	const BDD_NAME      = 'sanofi_vf';
+	const BDD_USER      = 'usersio';
+	const BDD_PASSWORD  = 'pwsio';
 
-namespace Core;
-
-class Config{
-    // For database settings
-    const BDD_HOST      = 'localhost';
-    const BDD_NAME      = 'sanofi_vf';
-    const BDD_USER      = 'usersio';
-    const BDD_PASSWORD  = 'pwsio';
-
-    // For Application settings
-    const APPLI_NAME    = 'Sanofi v0';
-    const APPLI_VERSION = 'v0';
+	// Paramètres pour l'application
+	const APPLI_NAME    = '';
+	const APPLI_VERSION = 'SANOFI_v0';
 }
+

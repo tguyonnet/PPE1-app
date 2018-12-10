@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ff984a-2c3e-4e5c-bffb-aa450a3fca35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/C/AbsenceController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Templates/Absence/listeTemplate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/V/Absence/ListeView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/V/Career/ListeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/V/Career/ListeView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Templates/DashBoard/listeTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Templates/DashBoard/listeTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/V/DashBoard/ListeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/V/DashBoard/ListeView.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,21 +16,30 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state relative-caret-position="360">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/C/DashBoardController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/V/Absence/ListeView.php">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -53,13 +60,11 @@
         <option value="$PROJECT_DIR$/../sanofi_v0/indexFaker.php" />
         <option value="$PROJECT_DIR$/App/M/ClientModel.php" />
         <option value="$PROJECT_DIR$/App/M/Conducteur_PermisModel.phpData" />
-        <option value="$PROJECT_DIR$/App/Templates/DashBoard/listeTemplate.php" />
         <option value="$PROJECT_DIR$/Core/Config.php" />
         <option value="$PROJECT_DIR$/App/Templates/_helper/footer-sb-admin.php" />
         <option value="$PROJECT_DIR$/App/Templates/_helper/ReservationHelper.php" />
         <option value="$PROJECT_DIR$/App/Templates/DashBoard/dashboardView.php" />
         <option value="$PROJECT_DIR$/App/Templates/Formation/listeTemplate.php" />
-        <option value="$PROJECT_DIR$/App/V/DashBoard/ListeView.php" />
         <option value="$PROJECT_DIR$/App/Templates/_helper/header-sb-admin.php" />
         <option value="$PROJECT_DIR$/App/V/Formation/ListeView.php" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -70,6 +75,8 @@
         <option value="$PROJECT_DIR$/App/C/AbsenceController.php" />
         <option value="$PROJECT_DIR$/App/Templates/Absence/listeTemplate.php" />
         <option value="$PROJECT_DIR$/App/V/Absence/ListeView.php" />
+        <option value="$PROJECT_DIR$/App/V/DashBoard/ListeView.php" />
+        <option value="$PROJECT_DIR$/App/Templates/DashBoard/listeTemplate.php" />
       </list>
     </option>
   </component>
@@ -81,8 +88,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="y" value="25" />
-    <option name="width" value="1922" />
-    <option name="height" value="1056" />
+    <option name="width" value="1384" />
+    <option name="height" value="852" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -90,7 +97,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,61 +113,7 @@
               <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
               <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="C" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-              <item name="_helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Career" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Formation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="V" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="V" type="462c0819:PsiDirectoryNode" />
-              <item name="Career" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="V" type="462c0819:PsiDirectoryNode" />
-              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
@@ -173,12 +125,13 @@
             <path>
               <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
               <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="Core" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,7 +179,12 @@
       <workItem from="1544042273118" duration="309000" />
       <workItem from="1544042583652" duration="1313000" />
       <workItem from="1544099753843" duration="740000" />
-      <workItem from="1544101000371" duration="2525000" />
+      <workItem from="1544101000371" duration="3543000" />
+      <workItem from="1544130960520" duration="1315000" />
+      <workItem from="1544209138128" duration="100000" />
+      <workItem from="1544212390946" duration="65000" />
+      <workItem from="1544212471506" duration="953000" />
+      <workItem from="1544227706548" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1543494761666</created>
@@ -298,17 +256,23 @@
       <option name="project" value="LOCAL" />
       <updated>1544105619022</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add Absence">
+      <created>1544105792385</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1544105792385</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34837000" />
+    <option name="totallyTimeSpent" value="38345000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="25" width="1918" height="903" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19850586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20962566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -320,8 +284,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286445" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="12" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -340,7 +304,8 @@
     <MESSAGE value="update index" />
     <MESSAGE value="update indexFaker" />
     <MESSAGE value="add files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add files" />
+    <MESSAGE value="add Absence" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Absence" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/App/M/MarchandiseTypeModel.phpData" />
@@ -368,12 +333,9 @@
     <entry file="file://$PROJECT_DIR$/App/Templates/_helper/header.php" />
     <entry file="file://$PROJECT_DIR$/App/M/ClientModel.php" />
     <entry file="file://$PROJECT_DIR$/App/Templates/_helper/ReservationHelper.php" />
-    <entry file="file://$PROJECT_DIR$/App/Templates/DashBoard/listeTemplate.php" />
     <entry file="file://$PROJECT_DIR$/Core/FormElement.php" />
     <entry file="file://$PROJECT_DIR$/Core/Form.php" />
     <entry file="file://$PROJECT_DIR$/Core/Controller.php" />
-    <entry file="file://$PROJECT_DIR$/App/C/DashBoardController.php" />
-    <entry file="file://$PROJECT_DIR$/composer.json" />
     <entry file="file://$PROJECT_DIR$/../sanofi_v0/index.php" />
     <entry file="file://$PROJECT_DIR$/App/M/Conducteur_PermisModel.php" />
     <entry file="file://$PROJECT_DIR$/App/M/ConducteurModel.php" />
@@ -386,13 +348,6 @@
     <entry file="file://$PROJECT_DIR$/App/M/VehiculeModel.php" />
     <entry file="file://$PROJECT_DIR$/App/Templates/_helper/footer-sb-admin.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Templates/_helper/header-sb-admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/View.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -414,16 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Templates/Formation/listeTemplate.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/C/FormationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" selection-start-line="22" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/C/CareerController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -431,27 +376,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/V/DashBoard/ListeView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#35#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/V/Career/ListeView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/V/Formation/ListeView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -472,17 +400,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/App/V/Absence/ListeView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/V/Absence/ListeView.php">
+    <entry file="file://$PROJECT_DIR$/App/C/FormationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="330">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Templates/Formation/listeTemplate.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/V/Formation/ListeView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Templates/DashBoard/listeTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/V/DashBoard/ListeView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Templates/_helper/header-sb-admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/C/DashBoardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

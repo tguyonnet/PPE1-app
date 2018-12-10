@@ -1,52 +1,74 @@
 <?php
 
-// Voir un max d'érreurs à l'écran pour le debug
-error_reporting(E_ALL);
+session_start();
 
-// On se place dans le répertoire racine du projet
-chdir(__DIR__);
 
-// Inclusion automatique des fichiers de classes des que le compilateur PHP en voit une dans le code ci-dessous
-function __autoload($class){
-    $fichier=__DIR__.'/'.str_replace('\\','/',$class).".php";
-    if(file_exists($fichier)){
-        include($fichier);
+// * Penser à mettre un index.php dans www qui redirige vers cet index là !
+include('Core/Config.php');
+include('App/Controllers/connexionControllers.php');
+include('App/Controllers/accueilControllers.php');
+include('App/Controllers/formationControllers.php');
+include('App/Controllers/carriereControllers.php');
+include('App/Controllers/absenceControllers.php');
+include('App/Controllers/praticionerControllers.php');
+
+
+
+
+
+// * remplacer ici les tests sur les GET par une fonction de validation ou de nettoygae par sécurité avant de l'injecter dans un module
+// * Ici aussi on mettrait le test à la variable de SESSION
+
+
+// * Vérifier les paramètres du GET
+
+$controle='';
+if (isset($_GET['c']))
+	{
+		$controle=$_GET['c'];
+	}
+	
+$action='';
+if (isset($_GET['action']))
+	{
+		$action=$_GET['action'];
+	}
+
+
+if(isset($_SESSION)){
+    if (isset($_SESSION['id'])) {
+        // * L'action demandée est envoyée vers le Controllers associé à la page demandée
+        // * Cette action est orientée métier : ce que souhaite le client comme fonctionalités, indépendament de la notion de tables!
+        switch ($controle) {
+            case 'Accueil' :
+                accueilControle($action);
+                break;
+
+            case 'Formation' :
+                formationControle($action);
+                break;
+
+            case 'Carriere' :
+                carriereControle($action);
+                break;
+
+            case 'Absence' :
+                absenceControle($action);
+                break;
+            default :
+                // A défaut par sécurité, c'est direct retour à l'authentification
+                //connexionControle($action);
+                connexionControle($action);
+                break;
+        }
     }else{
-        var_dump(getcwd());
-        var_dump($fichier);
+        connexionControle($action);
     }
-}
 
-//Prépare la connexion à la bdd
-$connection = \Core\Connection::setup('connection','mysql:host='.\Core\Config::BDD_HOST.';dbname='.\Core\Config::BDD_NAME, \Core\Config::BDD_USER, \Core\Config::BDD_PASSWORD, array(\PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''));
-\Core\DataObject::setConnection($connection);
-
-//Création du controller
-switch(Core\Params::get('c')){
+}else{
+        connexionControle($action);
+    }
 
 
-    case 'Formation':
-        $controller = new \App\C\FormationController();
-        break;
-    case 'Career':
-        $controller = new \App\C\CareerController();
-        break;
-    case 'Absence':
-        $controller = new \App\C\AbsenceController();
-        break;
-
-    default:
-        $controller = new \App\C\DashBoardController();
-        break;
-}
-
-//appel de la méthode du controller
-$actionName=  \Core\Params::post('a',  \Core\Params::get('a','liste')).'Action';
-$view = $controller->$actionName();
-
-// On affiche la vue que le controlleur a construit
-if(null!=$view) {
-    $view->display();
-}
 
 
