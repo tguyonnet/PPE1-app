@@ -4,17 +4,17 @@
 session_start();
 
 
-//// * Penser à mettre un index.php dans www qui redirige vers cet index là !
-//include('Core/Config.php');
-//include('App/Controllers/connexionControllers.php');
-//include('App/Controllers/accueilControllers.php');
-//include('App/Controllers/formationControllers.php');
-//include('App/Controllers/carriereControllers.php');
-//include('App/Controllers/absenceControllers.php');
-//include('App/Controllers/praticionerControllers.php');
+// * Penser à mettre un index.php dans www qui redirige vers cet index là !
+include('Core/Config.php');
+include('App/Controllers/connexionControllers.php');
+include('App/Controllers/accueilControllers.php');
+include('App/Controllers/formationControllers.php');
+include('App/Controllers/carriereControllers.php');
+include('App/Controllers/absenceControllers.php');
+include('App/Controllers/praticionerControllers.php');
 
 
-/*
+
 
 
 // * remplacer ici les tests sur les GET par une fonction de validation ou de nettoygae par sécurité avant de l'injecter dans un module
@@ -69,9 +69,9 @@ if(isset($_SESSION)){
         connexionControle($action);
 }
 
-*/
 
 
+/*
 require 'vendor/autoload.php';
 
 
@@ -93,4 +93,4 @@ $app = new \Slim\App($c);
 
 $app->get('/Absence', \Controllers\Abscence::class.':_defaultAction');
 
-
+*/

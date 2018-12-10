@@ -8,17 +8,17 @@
 
 namespace Controllers;
 
+use function Composer\Autoload\includeFile;
 use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 
 
 class Abscence
 {
-
     public static function _defaultAction($request, $response, $args) {
         $titreOnglet="SANOFI - Absence";
         $titrePage="Absence";
-        return file_get_contents('../App/Views/absencePage.php');
+//        echo'App/Views/absencePage.php';
+        return header('App/Views/absencePage.php');
     }
-
 }
