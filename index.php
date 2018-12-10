@@ -58,7 +58,6 @@ if(isset($_SESSION)){
                 break;
             default :
                 // A défaut par sécurité, c'est direct retour à l'authentification
-                //connexionControle($action);
                 connexionControle($action);
                 break;
         }
