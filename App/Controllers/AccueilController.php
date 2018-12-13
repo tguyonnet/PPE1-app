@@ -12,7 +12,7 @@ namespace Controllers;
 class AccueilController extends Controller
 {
     public function index($request, $response){
-        return $this->view->render($response, 'connexionPage.php',['title' => 'Home']);
+        return $this->view->render($response, 'accueilPage.php',['title' => 'Dashboard']);
     }
 
 }

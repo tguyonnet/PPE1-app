@@ -101,14 +101,16 @@ $container['HomeController'] = function ($container) {
     return new \Controllers\HomeController($container);
 };
 
+$app->get('/Home', \Controllers\HomeController::class.':index');
+$app->get('/Accueil', \Controllers\AccueilController::class.':index');
 
-$app->group('', function() {
-    //Add other route here
-    $this->get('/Home', \Controllers\HomeController::class.':index');
-    $this->get('/Accueil', \Controllers\AccueilController::class.':index');
-});
+//$app->group('', function() {
+//    //Add other route here
+//    $this->get('/Home', \Controllers\HomeController::class.':index');
+//    $this->get('/Accueil', \Controllers\AccueilController::class.':index');
+//});
 
-//$app->get('/Home', \Controllers\HomeController::class.':index');
+
 
 
 
