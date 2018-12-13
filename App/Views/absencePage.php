@@ -1,6 +1,6 @@
 <?php
-include('../App/Views/template/head.php');
-include('../App/Views/template/menu.php');
+include('template/head.php');
+include('template/menu.php');
 ?>
 <article>
 	<header><?php echo $titrePage;?> </header>
@@ -11,5 +11,5 @@ include('../App/Views/template/menu.php');
 
 </article>
 <?php 
-include('../App/Views/template/footer.php');
+include('template/footer.php');
 ?>
