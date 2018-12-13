@@ -85,22 +85,30 @@ $app = new \Slim\App(['settings' => $config]);
 
 $container = $app->getContainer();
 $container['view'] = function ($container){
+
     $view = new \Slim\Views\Twig(__DIR__ . '/App/Views');
 
     $view->addExtension(new \Slim\Views\TwigExtension(
        $container->router,
-       $container->request-getUrl()
+       $container->request->getUri()
     ));
     return $view;
 };
 
 
 
-$container['HomeAction'] = function ($container) {
-    return new \App\Controllers\HomeAction($container);
+$container['HomeController'] = function ($container) {
+    return new \Controllers\HomeController($container);
 };
 
-$app->get('/', \App\Controllers\HomeAction::class);
+
+
+$app->get('/Home', \Controllers\HomeController::class.':index');
+
+
+
+
+
 
 
 
@@ -111,10 +119,7 @@ $app->get('/', \App\Controllers\HomeAction::class);
  * https://www.slimframework.com/docs/v3/concepts/middleware.html
  * https://www.slimframework.com/docs/v3/concepts/di.html
  * https://www.slimframework.com/docs/v3/features/templates.html#the-slimtwig-view-component
- * composer require slim/twig-view
  * https://www.youtube.com/watch?v=2u7VxiyKqYk&list=PLfdtiltiRHWGc_yY90XRdq6mRww042aEC&index=2
- *
- *
  */
 
 
