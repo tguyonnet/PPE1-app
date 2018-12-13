@@ -2,9 +2,8 @@
 
 include('./template/head.php');
 include('./template/menu.php');
-?>
-<article>
 
+?>
     <title>{{ title }}</title>
 
     <div>
@@ -12,7 +11,8 @@ include('./template/menu.php');
 		<p>Vos prochaines réservations :</p>
         <p>Vos anciennes réservations :</p>
 	</div>
-</article>
+
+
 <?php
 include('./template/footer.php');
 ?>

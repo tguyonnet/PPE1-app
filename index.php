@@ -102,25 +102,14 @@ $container['HomeController'] = function ($container) {
 };
 
 
+$app->group('', function() {
+    //Add other route here
+    $this->get('/Home', \Controllers\HomeController::class.':index');
+    $this->get('/Accueil', \Controllers\AccueilController::class.':index');
+});
 
-$app->get('/Home', \Controllers\HomeController::class.':index');
+//$app->get('/Home', \Controllers\HomeController::class.':index');
 
-
-
-
-
-
-
-
-/**
- * @todo voir le container
- * @todo créer absolument une méthode _invoke dans cette classe container
- * qui gere toutes les routes toute seule,
- * https://www.slimframework.com/docs/v3/concepts/middleware.html
- * https://www.slimframework.com/docs/v3/concepts/di.html
- * https://www.slimframework.com/docs/v3/features/templates.html#the-slimtwig-view-component
- * https://www.youtube.com/watch?v=2u7VxiyKqYk&list=PLfdtiltiRHWGc_yY90XRdq6mRww042aEC&index=2
- */
 
 
 
