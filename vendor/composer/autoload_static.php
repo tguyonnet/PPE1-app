@@ -45,6 +45,7 @@ class ComposerStaticInitac82fe38c614c68bca1abe2b7dc5b9ad
         array (
             'Core\\' => 5,
             'Controllers\\' => 12,
+            'Config\\' => 7,
         ),
     );
 
@@ -96,6 +97,10 @@ class ComposerStaticInitac82fe38c614c68bca1abe2b7dc5b9ad
         'Controllers\\' => 
         array (
             0 => __DIR__ . '/../..' . '/App/Controllers',
+        ),
+        'Config\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Config',
         ),
     );
 

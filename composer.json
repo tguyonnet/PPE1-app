@@ -2,7 +2,8 @@
   "autoload": {
     "psr-4": {
       "Controllers\\":"App/Controllers",
-      "Core\\": "Core/"
+      "Core\\": "Core/",
+      "Config\\": "Config/"
     }
   },
   "require": {

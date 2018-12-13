@@ -18,4 +18,5 @@ return array(
     'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),
     'Core\\' => array($baseDir . '/Core'),
     'Controllers\\' => array($baseDir . '/App/Controllers'),
+    'Config\\' => array($baseDir . '/Config'),
 );
