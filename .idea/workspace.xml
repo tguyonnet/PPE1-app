@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ff984a-2c3e-4e5c-bffb-aa450a3fca35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/Views/template/header.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Views/template/nav.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sanofi_app_v0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sanofi_app_v0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/accueilPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/accueilPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/home.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/template/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/template/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/home.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/template/header.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/template/nav.twig" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+            <state relative-caret-position="390">
+              <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="81" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+            <state relative-caret-position="90">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -131,9 +124,9 @@
         <option value="$PROJECT_DIR$/App/Views/template/header.twig" />
         <option value="$PROJECT_DIR$/App/Views/home.twig" />
         <option value="$PROJECT_DIR$/App/Views/template/nav.twig" />
-        <option value="$PROJECT_DIR$/App/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/App/Views/template/head.php" />
         <option value="$PROJECT_DIR$/App/Views/accueilPage.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/HomeController.php" />
       </list>
     </option>
   </component>
@@ -268,7 +261,7 @@
       <workItem from="1544604318406" duration="6874000" />
       <workItem from="1544638454913" duration="10041000" />
       <workItem from="1544704482567" duration="4363000" />
-      <workItem from="1544709135303" duration="4418000" />
+      <workItem from="1544709135303" duration="4488000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1543494761666</created>
@@ -396,11 +389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544709305610</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add v1">
+      <created>1544713890032</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1544713890032</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69370000" />
+    <option name="totallyTimeSpent" value="69440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
@@ -444,7 +444,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="update project" />
     <MESSAGE value="add sb-admin2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sb-admin2" />
+    <MESSAGE value="add v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add v1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Core/Model.php" />
@@ -648,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="81" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/template/head.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -671,8 +665,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="390">
+          <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

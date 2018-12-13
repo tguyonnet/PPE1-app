@@ -9,7 +9,6 @@
 namespace Controllers;
 
 
-use Slim\Views\Twig as View;
 
 class HomeController extends Controller
 {
