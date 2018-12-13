@@ -25,10 +25,11 @@ function connexionControle($action) {
 // Voir la notion de paramètres par défaut dans une fonction PHP !
 function connexionControle_formAction($message=null) {
     $titreOnglet="SANOFI - Connexion";
-    $titrePage='Se connecter à '.Config::APPLI_NAME.' '.Config::APPLI_VERSION;
+    $titrePage='Se connecter à '.Config\Config::APPLI_NAME.' '.Config\Config::APPLI_VERSION;
     $alerte = $message;
     require '../App/Views/connexionPage.php';
 }
+
 
 function connexionControle_connecterAction($email, $password) {
     $url = 'http://api.test/employee/'.$email.'/'.$password;

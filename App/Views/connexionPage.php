@@ -1,5 +1,5 @@
 <?php
-include('../App/template/head.php');
+include('template/head.php');
 ?>
 
 <body class="bg-dark">
@@ -7,9 +7,9 @@ include('../App/template/head.php');
 		<header><?php echo $titrePage; ?></header>
 		<form method="POST" action="index.php?action=connecter">
 			<label for="email" >Adresse email</label>
-			<input type="email" id="email" name="email" placeholder="Votre adresse mail" >
+			<input type="email" id="email" name="email" placeholder="Votre adresse mail" value="petitjean.elise@voila.fr">
 			<label for="mdp" >Mot de passe</label>
-			<input type="password" id="mdp" name="password" placeholder="Votre mot de passe" >
+			<input type="password" id="mdp" name="password" placeholder="Votre mot de passe" value="pwDeschamps">
 			<input type="submit" value="Connexion">
 		</form>
         <small><?php echo $alerte; ?></small>

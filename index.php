@@ -2,7 +2,7 @@
 
 
 session_start();
-/*
+
 
 // * Penser à mettre un index.php dans www qui redirige vers cet index là !
 include('Core/Config.php');
@@ -11,7 +11,6 @@ include('App/Controllers/accueilControllers.php');
 include('App/Controllers/formationControllers.php');
 include('App/Controllers/carriereControllers.php');
 include('App/Controllers/absenceControllers.php');
-include('App/Controllers/praticionerControllers.php');
 
 
 
@@ -68,9 +67,9 @@ if(isset($_SESSION)){
         connexionControle($action);
 }
 
-*/
 
 
+/*
 require __DIR__.'/vendor/autoload.php';
 
 
@@ -116,3 +115,4 @@ $app->get('/Accueil', \Controllers\AccueilController::class.':index');
 
 
 $app->run();
+*/

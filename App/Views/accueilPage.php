@@ -1,7 +1,7 @@
 <?php
 
-include('./template/head.php');
-include('./template/menu.php');
+include('template/head.php');
+include('template/menu.php');
 
 ?>
     <title>{{ title }}</title>
@@ -14,5 +14,5 @@ include('./template/menu.php');
 
 
 <?php
-include('./template/footer.php');
+include('template/footer.php');
 ?>

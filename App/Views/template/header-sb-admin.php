@@ -10,20 +10,20 @@
     <title><?php echo $titreOnglet; ?></title>
 
   <!-- Bootstrap core CSS-->
-  <link href="../sb-admin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/www/sb-admin2/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
-  <link href="../sb-admin/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="/www/sb-admin2/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Page level plugin CSS-->
-  <link href="../sb-admin/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <link href="/www/sb-admin2/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
   <!-- Custom styles for this template-->
-  <link href="../sb-admin/css/sb-admin.css" rel="stylesheet">
+  <link href="/www/sb-admin2//css/sb-admin.css" rel="stylesheet">
 </head>
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
 
 
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="main-page">
-      <a class="navbar-brand" href="index.php"><?php echo \Config::APPLI_NAME;echo " - "; echo \Config::APPLI_VERSION;?></a>
+      <a class="navbar-brand" href="index.php"><?php echo Config\Config::APPLI_NAME;echo " - "; echo \Config\Config::APPLI_VERSION;?></a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
