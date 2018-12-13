@@ -6,12 +6,12 @@ function connexionControle($action) {
 		case 'connecter' :
 			connexionControle_connecterAction($_POST['email'], $_POST['password']);
 		break;
-		case 'inscrire' :
+/*		case 'inscrire' :
 			connexionControle_inscrireAction();
 		break;
 		case 'oublier' :
 			connexionControle_oublierAction();
-		break;
+		break;*/
 		case 'deconnecter' :
 			connexionControle_deconnecterAction();
 		break;

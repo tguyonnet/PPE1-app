@@ -1,9 +1,9 @@
 {
   "autoload": {
     "psr-4": {
-      "App\\C\\": "App/C/",
-      "App\\M\\": "App/M/",
-      "App\\V\\": "App/V/",
+      "Controllers\\":"App/Controllers",
+      "Models\\":"App/Models",
+      "Views\\":"App/Views",
       "Core\\": "Core/"
     }
   },

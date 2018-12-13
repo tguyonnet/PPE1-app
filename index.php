@@ -2,7 +2,7 @@
 
 
 session_start();
-
+/*
 
 // * Penser à mettre un index.php dans www qui redirige vers cet index là !
 include('Core/Config.php');
@@ -68,28 +68,55 @@ if(isset($_SESSION)){
         connexionControle($action);
 }
 
-
-
-/*
-require 'vendor/autoload.php';
-
-
-use \Psr\Http\Message\ServerRequestInterface as Request;
-use \Psr\Http\Message\ResponseInterface as Response;
-
-
-
-$configuration = [
-    'settings' => [
-        'displayErrorDetails' => true,
-    ],
-];
-
-
-$c = new \Slim\Container($configuration);
-$app = new \Slim\App($c);
-
-
-$app->get('/Absence', \Controllers\Abscence::class.':_defaultAction');
-
 */
+
+
+require __DIR__.'/vendor/autoload.php';
+
+
+
+$config['displayErrorDetails'] = true;
+$config['addContentLengthHeader'] = false;
+
+$app = new \Slim\App(['settings' => $config]);
+
+
+
+
+$container = $app->getContainer();
+$container['view'] = function ($container){
+    $view = new \Slim\Views\Twig(__DIR__ . '/App/Views');
+
+    $view->addExtension(new \Slim\Views\TwigExtension(
+       $container->router,
+       $container->request-getUrl()
+    ));
+    return $view;
+};
+
+
+
+$container['HomeAction'] = function ($container) {
+    return new \App\Controllers\HomeAction($container);
+};
+
+$app->get('/', \App\Controllers\HomeAction::class);
+
+
+
+/**
+ * @todo voir le container
+ * @todo créer absolument une méthode _invoke dans cette classe container
+ * qui gere toutes les routes toute seule,
+ * https://www.slimframework.com/docs/v3/concepts/middleware.html
+ * https://www.slimframework.com/docs/v3/concepts/di.html
+ * https://www.slimframework.com/docs/v3/features/templates.html#the-slimtwig-view-component
+ * composer require slim/twig-view
+ * https://www.youtube.com/watch?v=2u7VxiyKqYk&list=PLfdtiltiRHWGc_yY90XRdq6mRww042aEC&index=2
+ *
+ *
+ */
+
+
+
+$app->run();

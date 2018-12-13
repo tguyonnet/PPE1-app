@@ -1,7 +1,7 @@
 <body id="main-page">
 	<header>
 		<div>
-			<p><?php echo Config::APPLI_NAME.' '.Config::APPLI_VERSION; ?></p>
+			<p><?php //echo Config\Config::APPLI_NAME.' '.Config\Config::APPLI_VERSION; ?></p>
 		</div>
 		<nav>
 			<ul>

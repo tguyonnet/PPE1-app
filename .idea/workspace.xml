@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ff984a-2c3e-4e5c-bffb-aa450a3fca35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/App/Controllers/HomeAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sanofi_app_v0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sanofi_app_v0.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Abscence.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/Formation.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/connexionControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/connexionControllers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/praticionerControllers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/absencePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/absencePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/template/footer-sb-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/template/footer-sb-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/template/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/template/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/template/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/template/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/template/header-sb-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/template/header-sb-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/template/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/template/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -17,23 +31,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Controllers/Abscence.php">
+        <entry file="file://$PROJECT_DIR$/App/Controllers/HomeAction.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding>
-                <element signature="e#113#156#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Controllers/Connexion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -41,26 +61,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Controllers/connexionControllers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="105">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Models/API.php">
+        <entry file="file://$PROJECT_DIR$/Core/Config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="180">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -81,7 +92,6 @@
         <option value="$PROJECT_DIR$/../sanofi_v0/indexFaker.php" />
         <option value="$PROJECT_DIR$/App/M/ClientModel.php" />
         <option value="$PROJECT_DIR$/App/M/Conducteur_PermisModel.phpData" />
-        <option value="$PROJECT_DIR$/Core/Config.php" />
         <option value="$PROJECT_DIR$/App/Templates/_helper/footer-sb-admin.php" />
         <option value="$PROJECT_DIR$/App/Templates/_helper/ReservationHelper.php" />
         <option value="$PROJECT_DIR$/App/Templates/DashBoard/dashboardView.php" />
@@ -97,11 +107,23 @@
         <option value="$PROJECT_DIR$/App/V/Absence/ListeView.php" />
         <option value="$PROJECT_DIR$/App/V/DashBoard/ListeView.php" />
         <option value="$PROJECT_DIR$/App/Templates/DashBoard/listeTemplate.php" />
-        <option value="$PROJECT_DIR$/App/Views/absencePage.php" />
-        <option value="$PROJECT_DIR$/App/Controllers/Abscence.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/App/Models/API.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/Abscence.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/Accueil.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/Formation.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/Carriere.php" />
+        <option value="$PROJECT_DIR$/App/Views/absencePage.php" />
+        <option value="$PROJECT_DIR$/App/Views/template/menu.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/Absence.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/Connexion.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/connexionControllers.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/Router.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/App/Controllers/Controllers.php" />
+        <option value="$PROJECT_DIR$/Core/Config.php" />
+        <option value="$PROJECT_DIR$/www/.htaccess" />
+        <option value="$PROJECT_DIR$/App/Controllers/HomeAction.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -109,10 +131,6 @@
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/gabordemooij/redbean" />
-      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
       <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
@@ -150,7 +168,17 @@
               <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
               <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,13 +188,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sanofi_api_v0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App/Views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/App/V" />
       <recent name="$PROJECT_DIR$/App/Templates" />
@@ -211,7 +242,9 @@
       <workItem from="1544227706548" duration="57000" />
       <workItem from="1544454951473" duration="4306000" />
       <workItem from="1544462637154" duration="524000" />
-      <workItem from="1544463295759" duration="307000" />
+      <workItem from="1544463295759" duration="499000" />
+      <workItem from="1544604318406" duration="6874000" />
+      <workItem from="1544638454913" duration="10041000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1543494761666</created>
@@ -311,21 +344,28 @@
       <option name="project" value="LOCAL" />
       <updated>1544463122993</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update">
+      <created>1544463747879</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1544463747879</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43482000" />
+    <option name="totallyTimeSpent" value="60589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21611527" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12860192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32834226" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32736573" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -334,8 +374,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2737968" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2736573" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="12" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -347,6 +387,9 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../sanofi_v0" />
+    </ignored-roots>
     <MESSAGE value="index" />
     <MESSAGE value="update in english" />
     <MESSAGE value="update index" />
@@ -357,21 +400,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/Templates/_helper/footer.php" />
-    <entry file="file://$PROJECT_DIR$/../Cas Heppner-v0/App/Templates/_helper/header-sb-admin.php" />
-    <entry file="file://$PROJECT_DIR$/Core/Config.php" />
-    <entry file="file://$PROJECT_DIR$/www/index.php" />
-    <entry file="file://$PROJECT_DIR$/App/Templates/_helper/header.php" />
-    <entry file="file://$PROJECT_DIR$/App/M/ClientModel.php" />
-    <entry file="file://$PROJECT_DIR$/App/Templates/_helper/ReservationHelper.php" />
-    <entry file="file://$PROJECT_DIR$/Core/FormElement.php" />
-    <entry file="file://$PROJECT_DIR$/Core/Form.php" />
-    <entry file="file://$PROJECT_DIR$/Core/Controller.php" />
-    <entry file="file://$PROJECT_DIR$/../sanofi_v0/index.php" />
-    <entry file="file://$PROJECT_DIR$/App/M/Conducteur_PermisModel.php" />
-    <entry file="file://$PROJECT_DIR$/App/M/ConducteurModel.php" />
-    <entry file="file://$PROJECT_DIR$/App/M/DevisModel.php" />
-    <entry file="file://$PROJECT_DIR$/App/M/DemandeTransportModel.php" />
     <entry file="file://$PROJECT_DIR$/App/M/MarchandiseTypeModel.php" />
     <entry file="file://$PROJECT_DIR$/App/M/MarqueModel.php" />
     <entry file="file://$PROJECT_DIR$/App/M/ModeleModel.php" />
@@ -394,28 +422,8 @@
     <entry file="file://$PROJECT_DIR$/App/V/DashBoard/ListeView.php" />
     <entry file="file://$PROJECT_DIR$/App/Templates/_helper/header-sb-admin.php" />
     <entry file="file://$PROJECT_DIR$/App/C/DashBoardController.php" />
-    <entry file="file://$PROJECT_DIR$/App/Controllers/Formation.php">
+    <entry file="file://$PROJECT_DIR$/App/Views/template/head.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/template/head.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/template/menu.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/absencePage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controllers/absenceControllers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -427,23 +435,6 @@
     <entry file="file://$PROJECT_DIR$/App/Views/connexionPage.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controllers/Abscence.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="e#113#156#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/curl/curl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -451,27 +442,174 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/App/Models/API.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/absenceControllers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/accueilControllers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="13" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/formationControllers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="13" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/carriereControllers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="13" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/praticionerControllers.php" />
+    <entry file="file://$PROJECT_DIR$/App/Views/absencePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/template/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/Accueil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/Carriere.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/Formation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/Absence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" selection-start-line="16" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#113#169#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/Connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/RouterInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="e#269#290#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/CallableResolver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/Controllers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Controllers/connexionControllers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="105">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/www/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="45">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/App.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/HomeAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>
