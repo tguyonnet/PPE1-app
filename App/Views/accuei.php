@@ -1,12 +1,12 @@
 <?php
+
 include('template/head.php');
 include('template/menu.php');
+
 ?>
 <article>
-	<header><?php echo $titrePage;?> </header>
-
-
-
+    <header>Dashboard</header>
+        <title>{{ title }}</title>
 
 
 
@@ -15,3 +15,4 @@ include('template/menu.php');
 <?php
 include('template/footer.php');
 ?>
+

@@ -3,7 +3,7 @@
 
 session_start();
 
-
+/*
 // * Penser à mettre un index.php dans www qui redirige vers cet index là !
 include('Core/Config.php');
 include('App/Controllers/connexionControllers.php');
@@ -68,8 +68,8 @@ if(isset($_SESSION)){
 }
 
 
+*/
 
-/*
 require __DIR__.'/vendor/autoload.php';
 
 
@@ -100,14 +100,10 @@ $container['HomeController'] = function ($container) {
     return new \Controllers\HomeController($container);
 };
 
-$app->get('/Home', \Controllers\HomeController::class.':index');
-$app->get('/Accueil', \Controllers\AccueilController::class.':index');
 
-//$app->group('', function() {
-//    //Add other route here
-//    $this->get('/Home', \Controllers\HomeController::class.':index');
-//    $this->get('/Accueil', \Controllers\AccueilController::class.':index');
-//});
+$app->get('/Home', \Controllers\HomeController::class . ':index')->setName('home');
+$app->get('/', \Controllers\AccueilController::class . ':index')->setName('accueil');
+$app->get('/Formation', \Controllers\FormationController::class . ':index')->setName('accueil');
 
 
 
@@ -115,4 +111,3 @@ $app->get('/Accueil', \Controllers\AccueilController::class.':index');
 
 
 $app->run();
-*/

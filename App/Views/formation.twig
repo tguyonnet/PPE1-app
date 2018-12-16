@@ -1,0 +1,44 @@
+{#<?php#}
+{#include('template/head.php');#}
+{#include('template/menu.php');#}
+
+<article>
+    <header><?php echo $titrePage;?> </header>
+
+    <div class="col-lg-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Liste des Formations
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead><tr><th>#</th><th>Libelle</th><th>Date</th></tr></thead>
+                        <tbody>
+
+                        {% for formation in formations %}
+                            {{ loop.id }} - {{ formation.libelle }}
+                        {% endfor %}
+
+
+                        {#for ($i=0; $i>count($result); $i++){#}
+                        {#echo'<tr>'.'<td>'.$result->id[$i].'</td>'.'<td>'.$result->formation_libelle[$i].'</td>'.'<td>'.$result->date[$i].'</td>';#}
+                            {#};#}
+                            {#?>#}
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.table-responsive -->
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+
+
+
+
+
+</article>
+{#include('template/footer.php');#}

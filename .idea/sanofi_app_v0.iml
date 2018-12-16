@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Core" isTestSource="false" packagePrefix="Core\" />
       <sourceFolder url="file://$MODULE_DIR$/App/Controllers" isTestSource="false" packagePrefix="Controllers\" />
       <sourceFolder url="file://$MODULE_DIR$/Config" isTestSource="false" packagePrefix="Config\" />
+      <sourceFolder url="file://$MODULE_DIR$/App/Models" isTestSource="false" packagePrefix="Models\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/container-interop/container-interop" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/gabordemooij/redbean" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/nikic/fast-route" />

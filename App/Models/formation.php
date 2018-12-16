@@ -1,26 +1,24 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: usersio
- * Date: 12/12/18
- * Time: 19:54
- */
 
-namespace Controllers;
-
-
-class HomeController extends Controller
-{
-    public function index($request, $response){
-        return $this->view->render($response, 'connexionPage.php',['title' => 'Home']);
-
-    }
+class formation {
 
     private $id;
     private $libelle;
     private $date;
 
 
+    /**
+     * formation constructor.
+     * @param $id
+     * @param $libelle
+     * @param $date
+     */
+    public function __construct($id, $libelle, $date)
+    {
+        $this->id = $id;
+        $this->libelle = $libelle;
+        $this->date = $date;
+    }
 
     /**
      * @return mixed
@@ -65,6 +63,4 @@ class HomeController extends Controller
         $result = json_decode($response);
         return $result;
     }
-
 }
-
