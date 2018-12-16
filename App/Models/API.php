@@ -4,7 +4,10 @@ namespace Models;
 
 class API {
 
-    public function __call($url) {
+
+
+    public static function __call($url)
+    {
         if (is_string($url) && $url!='') {
             //  Initiate curl
             $ch = curl_init();
@@ -16,8 +19,7 @@ class API {
             $response = curl_exec($ch);
             // Closing
             curl_close($ch);
-            $result = json_decode($response);
-            return $result;
+            return json_decode($response);
         }else{
             return 'La route n\'est pas valide';
         }

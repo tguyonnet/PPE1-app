@@ -1,66 +1,66 @@
 <?php
 
-class formation {
+namespace Models;
 
-    private $id;
-    private $libelle;
-    private $date;
-
+class formation
+{
+    private $url = \Config\Config::API_URL . '/formation/';
 
     /**
-     * formation constructor.
+     * @return mixed|string
+     */
+    public function getFormation()
+    {
+        return API::__call($this->url);
+    }
+
+    /**
      * @param $id
-     * @param $libelle
+     * @return mixed|stringl
+     */
+    public function getFormationId($id)
+    {
+        $url = $this->url . $id;
+        $response = API::__call($url);
+        return $response;
+    }
+
+    /**
      * @param $date
+     * @return mixed|string
      */
-    public function __construct($id, $libelle, $date)
+    public function getFormationDate($date)
     {
-        $this->id = $id;
-        $this->libelle = $libelle;
-        $this->date = $date;
+        $url = $this->url . '/date/' . $date;
+        $response = API::__call($url);
+        return $response;
     }
 
     /**
-     * @return mixed
+     * @param $employee_id
+     * @return mixed|string
      */
-    public function getId()
+    public function getFormationEmployee($employee_id)
     {
-        return $this->id;
+        $url = $this->url . '/employee/' . $employee_id;
+        $response = API::__call($url);
+        return $response;
     }
-
 
     /**
-     * @return mixed
+     * @param $employee_id
+     * @param $date
+     * @return mixed|string
      */
-    public function getDate()
+    public function getFormationEmployeeDate($employee_id, $date)
     {
-        return $this->date;
+        $url = $this->url . '/employee/' . $employee_id . '/' . $date;
+        $response = API::__call($url);
+        return $response;
     }
 
 
-    /**
-     * @return mixed
-     */
-    public function getLibelle()
-    {
-        return $this->libelle;
-    }
 
 
-    public function api()
-    {
-        $url = 'http://api.test/formation';
-        //  Initiate curl
-        $ch = curl_init();
-        // Will return the response, if false it print the response
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        // Set the url
-        curl_setopt($ch, CURLOPT_URL, $url);
-        //  Execute
-        $response = curl_exec($ch);
-        // Closing
-        curl_close($ch);
-        $result = json_decode($response);
-        return $result;
-    }
+
 }
