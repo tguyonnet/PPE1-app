@@ -9,8 +9,8 @@ class Config {
 	const BDD_PASSWORD  = 'pwsio';
 
 	// Paramètres pour l'application
-	const APPLI_NAME    = '';
-	const APPLI_VERSION = 'SANOFI_v0';
+	const APPLI_NAME    = 'Sanofi';
+	const APPLI_VERSION = 'v0';
 	const API_URL = 'api.test';
 }
 

@@ -8,7 +8,7 @@ class API {
      * @param $url
      * @return mixed|string
      */
-    public static function __call($url)
+    public static function call($url)
     {
         if (is_string($url) && $url!='') {
             //  Initiate curl

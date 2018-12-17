@@ -11,7 +11,7 @@ class isConnected
     public function __invoke($response, $request, $next)
     {
         $route = '';
-        if(!isset($_SESSION['id']) && $route!='connexion'){
+        if(!isset($_SESSION['id']) && $route!='employee'){
             return $response->write('connexionPage.php');
         }else{
             return $next($response, $request);
