@@ -4,7 +4,13 @@ namespace Models;
 
 class connexion
 {
-    private $url = \Config\Config::API_URL . '/employee/';
+    /**
+     * @return string
+     */
+    private function getUrl()
+    {
+        return \Config\Config::API_URL . '/employee/';
+    }
 
     /**
      * @param $id
@@ -12,7 +18,7 @@ class connexion
      */
     public function getEmployee($id)
     {
-        $url = $this->url . $id;
+        $url = self::getUrl() . $id;
         $response = API::__call($url);
         return $response;
 
@@ -25,7 +31,7 @@ class connexion
      */
     public function getEmployeeId($email, $password)
     {
-        $url = $this->url . $email . '/' . $password;
+        $url = self::getUrl() . $email . '/' . $password;
         $response = API::__call($url);
         return $response;
 

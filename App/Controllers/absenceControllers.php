@@ -15,5 +15,5 @@ function absenceControle($action) {
 function absenceControle_defaultAction() {
 	$titreOnglet="SANOFI - Absence";
     $titrePage="Absence";
-	require '../App/Views/absencePage.php';
+	require '../App/Views/absence.php';
 }

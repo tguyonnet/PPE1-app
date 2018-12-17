@@ -4,8 +4,10 @@ namespace Models;
 
 class API {
 
-
-
+    /**
+     * @param $url
+     * @return mixed|string
+     */
     public static function __call($url)
     {
         if (is_string($url) && $url!='') {
@@ -24,6 +26,5 @@ class API {
             return 'La route n\'est pas valide';
         }
     }
-
 
 }

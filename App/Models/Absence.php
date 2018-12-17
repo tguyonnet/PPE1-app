@@ -11,15 +11,21 @@ namespace Models;
 
 class Absence
 {
-    private $url = \Config\Config::API_URL . '/absence/';
+    /**
+     * @return string
+     */
+    private static function getUrl()
+    {
+        return \Config\Config::API_URL . '/absence/';
+    }
 
     /**
      * @param $date
      * @return mixed|string
      */
-    public function getAbsenceDate($date)
+    public static function getAbsenceDate($date)
     {
-        $url = $this->url . '/date/' . $date;
+        $url = self::getUrl() . '/date/' . $date;
         $response = API::__call($url);
         return $response;
     }
@@ -28,9 +34,9 @@ class Absence
      * @param $employee_id
      * @return mixed|string
      */
-    public function getAbsenceEmployee_id($employee_id)
+    public static function getAbsenceEmployee_id($employee_id)
     {
-        $url = $this->url . '/employee/' . $employee_id;
+        $url = self::getUrl() . '/employee/' . $employee_id;
         $response = API::__call($url);
         return $response;
     }
@@ -40,9 +46,9 @@ class Absence
      * @param $date
      * @return mixed|string
      */
-    public function getAbsenceEmployee_idDate($employee_id, $date)
+    public static function getAbsenceEmployee_idDate($employee_id, $date)
     {
-        $url = $this->url . '/employee/' . $employee_id . '/date/' . $date;
+        $url = self::getUrl() . '/employee/' . $employee_id . '/date/' . $date;
         $response = API::__call($url);
         return $response;
     }
@@ -52,9 +58,9 @@ class Absence
      * @param $type
      * @return mixed|string
      */
-    public function getAbsenceEmployee_idType($employee_id, $type)
+    public static function getAbsenceEmployee_idType($employee_id, $type)
     {
-        $url = $this->url . '/employee/' . $employee_id . '/type/' . $type;
+        $url = self::getUrl() . '/employee/' . $employee_id . '/type/' . $type;
         $response = API::__call($url);
         return $response;
     }
@@ -65,9 +71,9 @@ class Absence
      * @param $date
      * @return mixed|string
      */
-    public function getAbsenceEmployee_idTypeDate($employee_id, $type, $date)
+    public static function getAbsenceEmployee_idTypeDate($employee_id, $type, $date)
     {
-        $url = $this->url . '/employee/' . $employee_id . '/type/' . $type . '/date/' . $date;
+        $url = self::getUrl() . '/employee/' . $employee_id . '/type/' . $type . '/date/' . $date;
         $response = API::__call($url);
         return $response;
     }

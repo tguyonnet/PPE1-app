@@ -4,14 +4,20 @@ namespace Models;
 
 class formation
 {
-    private $url = \Config\Config::API_URL . '/formation/';
+    /**
+     * @return string
+     */
+    private function getUrl()
+    {
+        return \Config\Config::API_URL . '/formation/';
+    }
 
     /**
      * @return mixed|string
      */
     public function getFormation()
     {
-        return API::__call($this->url);
+        return API::__call(self::getUrl());
     }
 
     /**
@@ -20,7 +26,7 @@ class formation
      */
     public function getFormationId($id)
     {
-        $url = $this->url . $id;
+        $url = self::getUrl() . $id;
         $response = API::__call($url);
         return $response;
     }
@@ -31,7 +37,7 @@ class formation
      */
     public function getFormationDate($date)
     {
-        $url = $this->url . '/date/' . $date;
+        $url = self::getUrl() . '/date/' . $date;
         $response = API::__call($url);
         return $response;
     }
@@ -42,7 +48,7 @@ class formation
      */
     public function getFormationEmployee($employee_id)
     {
-        $url = $this->url . '/employee/' . $employee_id;
+        $url = self::getUrl() . '/employee/' . $employee_id;
         $response = API::__call($url);
         return $response;
     }
@@ -54,7 +60,7 @@ class formation
      */
     public function getFormationEmployeeDate($employee_id, $date)
     {
-        $url = $this->url . '/employee/' . $employee_id . '/' . $date;
+        $url = self::getUrl() . '/employee/' . $employee_id . '/' . $date;
         $response = API::__call($url);
         return $response;
     }

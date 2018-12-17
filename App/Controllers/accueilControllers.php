@@ -14,5 +14,5 @@ function accueilControle($action) {
 function accueilControle_defaultAction() {
 	$titreOnglet="SANOFI - Accueil";
     $titrePage="Accueil";
-	require '../App/Views/accuei.php';
+	require '../App/Views/accueil.php';
 }
