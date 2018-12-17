@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ff984a-2c3e-4e5c-bffb-aa450a3fca35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/Views/carriere.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Models/Formation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/carriereControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/carriereControllers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/connexionControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/connexionControllers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Controllers/formationControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/formationControllers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Middleware/isConnected.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Middleware/isConnected.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/accueil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/carrierePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/formation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/connexionPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/formationPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/praticionerPage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/template/menu-sb-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/template/menu-sb-admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Models/career.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Career.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Models/formation.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,99 +20,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Views/absence.php">
+        <entry file="file://$PROJECT_DIR$/App/Models/Absence.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Views/accueil.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Views/carriere.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Views/formation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="1350">
+              <caret line="95" selection-start-line="95" selection-end-line="96" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/Views/connexion.php">
+        <entry file="file://$PROJECT_DIR$/App/Models/Career.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="510">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Models/Absence.php">
+        <entry file="file://$PROJECT_DIR$/App/Models/Formation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="108" column="27" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Models/Employee.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1035">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Views/template/menu-sb-admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-              <folding>
-                <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Views/template/footer-sb-admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Controllers/absenceControllers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>__call</find>
+      <find>public function</find>
+      <find>public static function</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,8 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/App/Controllers/Formation.php" />
-        <option value="$PROJECT_DIR$/App/Controllers/Carriere.php" />
         <option value="$PROJECT_DIR$/App/Controllers/Absence.php" />
         <option value="$PROJECT_DIR$/App/Controllers/Connexion.php" />
         <option value="$PROJECT_DIR$/App/Controllers/Router.php" />
@@ -161,8 +92,6 @@
         <option value="$PROJECT_DIR$/../Heppner-master/App/Templates/Vehicule/listeTemplate.php" />
         <option value="$PROJECT_DIR$/App/Controllers/formationControllers.php" />
         <option value="$PROJECT_DIR$/App/Models/connexion.php" />
-        <option value="$PROJECT_DIR$/App/Models/formation.php" />
-        <option value="$PROJECT_DIR$/App/Models/career.php" />
         <option value="$PROJECT_DIR$/App/Models/API.php" />
         <option value="$PROJECT_DIR$/App/Views/template/footer.php" />
         <option value="$PROJECT_DIR$/App/Views/template/header-sb-admin.php" />
@@ -179,6 +108,10 @@
         <option value="$PROJECT_DIR$/App/Views/formationPage.php" />
         <option value="$PROJECT_DIR$/App/Views/formation.php" />
         <option value="$PROJECT_DIR$/App/Views/connexion.php" />
+        <option value="$PROJECT_DIR$/App/Models/formation.php" />
+        <option value="$PROJECT_DIR$/App/Models/Formation.php" />
+        <option value="$PROJECT_DIR$/App/Models/career.php" />
+        <option value="$PROJECT_DIR$/App/Models/Career.php" />
       </list>
     </option>
   </component>
@@ -240,16 +173,6 @@
               <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="Core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,7 +248,7 @@
       <workItem from="1544902086036" duration="4273000" />
       <workItem from="1544960627426" duration="4901000" />
       <workItem from="1545050050153" duration="21000" />
-      <workItem from="1545050094148" duration="11392000" />
+      <workItem from="1545050094148" duration="13567000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1543494761666</created>
@@ -523,11 +446,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545061378109</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="update Project">
+      <created>1545061583361</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1545061583361</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104644000" />
+    <option name="totallyTimeSpent" value="106819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
@@ -725,20 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Models/formation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Models/career.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
-          <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -794,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Models/Absence.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="108" column="27" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Controllers/absenceControllers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -836,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Models/Employee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1035">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/template/menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -857,13 +759,6 @@
           <folding>
             <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/absence.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -890,8 +785,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/connexion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/absence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Employee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Absence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="95" selection-start-line="95" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Formation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Career.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>

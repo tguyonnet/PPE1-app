@@ -1,9 +1,39 @@
 <?php
 
 namespace Models;
+require 'API.php';
 
-class career
+
+class Career
 {
+    //Post
+    private $id;
+    private $post_libelle;
+    private $mission;
+    private $carrer_id;
+
+    //Salary
+    private $amount;
+    private $post_id;
+    private $employee_id;
+
+    //Bounty
+    private $amount;
+    private $date;
+    private $salary_id;
+
+    //Hiring Date
+    private $hiring_date;
+    private $employee_id;
+
+    //Other
+    private $terminaison_date;
+    private $retirement_date;
+    private $departure_date;
+    private $enterexit_id;
+
+
+
     /**
      * @return string
      */
@@ -19,21 +49,10 @@ class career
     public function getCareerEmployeePost($employee)
     {
         $url = self::getUrl() . $employee . '/post';
-        $response = API::__call($url);
+        $response = API::call($url);
         return $response;
     }
 
-    /**
-     * @param $employee
-     * @param $post
-     * @return mixed|string
-     */
-    public function getCareerEmployeePostMission($employee, $post)
-    {
-        $url = self::getUrl() . $employee . $post . '/mission';
-        $response = API::__call($url);
-        return $response;
-    }
 
     /**
      * @param $employee
@@ -43,7 +62,7 @@ class career
     public function getCareerEmployeePostSalary($employee, $post)
     {
         $url = self::getUrl() . $employee . $post . '/salary';
-        $response = API::__call($url);
+        $response = API::call($url);
         return $response;
     }
 
@@ -55,7 +74,7 @@ class career
     public function getCareerEmployeePostBounty($employee, $post)
     {
         $url = self::getUrl() . $employee . $post . '/bounty';
-        $response = API::__call($url);
+        $response = API::call($url);
         return $response;
     }
 
@@ -67,7 +86,7 @@ class career
     public function getCareerEmployeePostHiringDate($employee, $post)
     {
         $url = self::getUrl() . $employee . $post . '/hiringDate';
-        $response = API::__call($url);
+        $response = API::call($url);
         return $response;
     }
 
@@ -79,7 +98,7 @@ class career
     public function getCareerEmployeePostTermination($employee, $post)
     {
         $url = self::getUrl() . $employee . $post . '/termination';
-        $response = API::__call($url);
+        $response = API::call($url);
         return $response;
     }
 
@@ -91,7 +110,7 @@ class career
     public function getCareerEmployeePostRetirement($employee, $post)
     {
         $url = self::getUrl() . $employee . $post . '/retirement';
-        $response = API::__call($url);
+        $response = API::call($url);
         return $response;
     }
 
@@ -103,7 +122,7 @@ class career
     public function getCareerEmployeePostResignation($employee, $post)
     {
         $url = self::getUrl() . $employee . $post . '/resignation';
-        $response = API::__call($url);
+        $response = API::call($url);
         return $response;
     }
 

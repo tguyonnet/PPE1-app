@@ -14,5 +14,5 @@ function formationControle($action) {
 function formationControle_defaultAction() {
 	$titreOnglet="SANOFI - Formation";
     $titrePage="Formation";
-	require '../App/Views/formation.php';
+	require '../App/Views/Formation.php';
 }
