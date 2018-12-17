@@ -3,11 +3,9 @@ include('template/header-sb-admin.php');
 include('template/menu-sb-admin.php');
 
 ?>
-
-
 <article>
-    <header>Dashboard</header>
-        <title>{{ title }}</title>
+	<header><?php echo $titrePage;?> </header>
+
 
 
 
@@ -16,4 +14,3 @@ include('template/menu-sb-admin.php');
 <?php
 include('template/footer-sb-admin.php');
 ?>
-

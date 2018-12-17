@@ -14,5 +14,5 @@ function carriereControle($action) {
 function carriereControle_defaultAction() {
 	$titreOnglet="SANOFI - Carriere";
     $titrePage="Carriere";
-	require '../App/Views/carrierePage.php';
+	require '../App/Views/carriere.php';
 }

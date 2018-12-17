@@ -31,7 +31,7 @@ function connexionControle_formAction($message=null) {
     $titreOnglet="SANOFI - Connexion";
     $titrePage='Se connecter à '.Config\Config::APPLI_NAME.' '.Config\Config::APPLI_VERSION;
     $alerte = $message;
-    require '../App/Views/connexionPage.php';
+    require '../App/Views/connexion.php';
 }
 
 

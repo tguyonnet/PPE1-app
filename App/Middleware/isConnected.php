@@ -12,7 +12,7 @@ class isConnected
     {
         $route = '';
         if(!isset($_SESSION['id']) && $route!='employee'){
-            return $response->write('connexionPage.php');
+            return $response->write('connexion.php');
         }else{
             return $next($response, $request);
         }
