@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ff984a-2c3e-4e5c-bffb-aa450a3fca35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/Models/Formation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Controllers/formationControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/formationControllers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Models/career.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Career.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Models/formation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Models/Career.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Career.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Models/Formation.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Formation.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Models/Absence.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="95" selection-start-line="95" selection-end-line="96" />
+            <state relative-caret-position="1455">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
             </state>
           </provider>
         </entry>
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/Models/Career.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Models/Formation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="195">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -90,7 +89,6 @@
         <option value="$PROJECT_DIR$/App/Views/absencePage.php" />
         <option value="$PROJECT_DIR$/../GlobAgence-e0_v2/App/V/LigueController/listeAction.php" />
         <option value="$PROJECT_DIR$/../Heppner-master/App/Templates/Vehicule/listeTemplate.php" />
-        <option value="$PROJECT_DIR$/App/Controllers/formationControllers.php" />
         <option value="$PROJECT_DIR$/App/Models/connexion.php" />
         <option value="$PROJECT_DIR$/App/Models/API.php" />
         <option value="$PROJECT_DIR$/App/Views/template/footer.php" />
@@ -109,8 +107,9 @@
         <option value="$PROJECT_DIR$/App/Views/formation.php" />
         <option value="$PROJECT_DIR$/App/Views/connexion.php" />
         <option value="$PROJECT_DIR$/App/Models/formation.php" />
-        <option value="$PROJECT_DIR$/App/Models/Formation.php" />
         <option value="$PROJECT_DIR$/App/Models/career.php" />
+        <option value="$PROJECT_DIR$/App/Models/Formation.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/formationControllers.php" />
         <option value="$PROJECT_DIR$/App/Models/Career.php" />
       </list>
     </option>
@@ -143,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,26 +176,27 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sanofi_api_v0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App/Views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/App/Views" />
       <recent name="$PROJECT_DIR$/App/Controllers" />
       <recent name="$PROJECT_DIR$/App/Models" />
       <recent name="$PROJECT_DIR$/App/V" />
       <recent name="$PROJECT_DIR$/App/Templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/App/Views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,7 +247,8 @@
       <workItem from="1544902086036" duration="4273000" />
       <workItem from="1544960627426" duration="4901000" />
       <workItem from="1545050050153" duration="21000" />
-      <workItem from="1545050094148" duration="13567000" />
+      <workItem from="1545050094148" duration="14029000" />
+      <workItem from="1545068254188" duration="3824000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1543494761666</created>
@@ -453,17 +453,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545061583361</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="update Project">
+      <created>1545063800245</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1545063800245</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106819000" />
+    <option name="totallyTimeSpent" value="111105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14087513" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14194237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -523,9 +530,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/praticionerPage.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/praticionerPage.php" />
     <entry file="file://$PROJECT_DIR$/App/Controllers/FormationController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -620,13 +625,6 @@
     <entry file="file://$PROJECT_DIR$/../Heppner-master/App/V/Parametre/FormParametre.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/formation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/formation.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -641,20 +639,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Models/praticionerData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controllers/formationControllers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/praticionerData.php" />
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -799,29 +784,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Models/Employee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state>
           <caret line="3" selection-start-line="3" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Models/Absence.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="95" selection-start-line="95" selection-end-line="96" />
+        <state relative-caret-position="1455">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Models/Formation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="195">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/formationControllers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Models/Career.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

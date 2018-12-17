@@ -11,6 +11,8 @@ class Formation
     private $formation_libelle;
     private $date;
 
+    //
+
     public function __construct($id, $formation_libelle, $date)
     {
         $this->id = $id;
