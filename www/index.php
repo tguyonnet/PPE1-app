@@ -6,4 +6,4 @@
  * Time: 10:51
  */
 
-include ('../index.php');
+include ('../index2.php');

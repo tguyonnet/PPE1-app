@@ -1,15 +1,17 @@
 <?php
 include('template/head.php');
 include('template/menu.php');
-?>
-<article>
-	<header><?php echo $titrePage;?> </header>
+
+echo'<article>';
+echo '<header>' . $titrePage . '</header>';
+echo'</article>';
+
+echo'<thead><tr><th>#</th><th>Libelle</th><th>Date</th></tr></thead>';
+for ($i=0; $i>count($result); $i++) {
+    echo '<tr>' . '<td>' . $result->id[$i] . '</td>' . '<td>' . $result->formation_libelle[$i] . '</td>' . '<td>' . $result->date[$i] . '</td>';
+}
 
 
 
-
-
-</article>
-<?php 
 include('template/footer.php');
 ?>

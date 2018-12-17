@@ -22,10 +22,10 @@
                         {% endfor %}
 
 
-                        {#for ($i=0; $i>count($result); $i++){#}
-                        {#echo'<tr>'.'<td>'.$result->id[$i].'</td>'.'<td>'.$result->formation_libelle[$i].'</td>'.'<td>'.$result->date[$i].'</td>';#}
-                            {#};#}
-                            {#?>#}
+                        for ($i=0; $i>count($result); $i++){
+                        echo'<tr>'.'<td>'.$result->id[$i].'</td>'.'<td>'.$result->formation_libelle[$i].'</td>'.'<td>'.$result->date[$i].'</td>';
+                            };
+                            ?>
                         </tbody>
                     </table>
                 </div>

@@ -4,7 +4,7 @@ include('template/head.php');
 
 <body class="bg-dark">
 	<div id="main-connexion">
-		<title>{{ title }}</title>
+		<title>Connexion</title>
 		<form method="POST" action="index.php?action=connecter">
 			<label for="email" >Adresse email</label>
 			<input type="email" id="email" name="email" placeholder="Votre adresse mail" value="petitjean.elise@voila.fr">

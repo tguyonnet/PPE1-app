@@ -16,7 +16,7 @@ class formation
 
     /**
      * @param $id
-     * @return mixed|stringl
+     * @return mixed|string
      */
     public function getFormationId($id)
     {

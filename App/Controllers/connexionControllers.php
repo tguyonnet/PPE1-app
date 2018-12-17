@@ -1,6 +1,6 @@
 <?php
 
-use Models\API as api;
+use Models\API as API;
 
 function connexionControle($action) {
 	// Sélecteur d'actions
@@ -37,7 +37,18 @@ function connexionControle_formAction($message=null) {
 
 function connexionControle_connecterAction($email, $password) {
 
-    $result = \Models\connexion::getEmployeeId($email, $password);
+    $url = \Config\Config::API_URL . '/employee/' . $email . '/' . $password;
+    //  Initiate curl
+    $ch = curl_init();
+    // Will return the response, if false it print the response
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    // Set the url
+    curl_setopt($ch, CURLOPT_URL, $url);
+    //  Execute
+    $response = curl_exec($ch);
+    // Closing
+    curl_close($ch);
+    $result =  json_decode($response);
 
 	if ($result->data!=null){
 	    $_SESSION['id'] = $result->data;
