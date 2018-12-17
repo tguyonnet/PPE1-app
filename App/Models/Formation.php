@@ -48,10 +48,6 @@ class Formation
 
 
 
-
-
-
-
     /**
      * @return string
      */
@@ -59,6 +55,10 @@ class Formation
     {
         return \Config\Config::API_URL . '/formation/';
     }
+
+
+
+
 
     /**
      * @return mixed|string
@@ -76,7 +76,13 @@ class Formation
     {
         $url = self::getUrl() . $id;
         $response = API::call($url);
-        return $response;
+
+        $formation = array();
+        foreach ($response->data as $one)
+        {
+            $formation[] = new Formation($one->id, $one->formation_libelle, $one->date);
+        }
+        return $formation;
     }
 
     /**
@@ -87,7 +93,13 @@ class Formation
     {
         $url = self::getUrl() . '/date/' . $date;
         $response = API::call($url);
-        return $response;
+
+        $formation = array();
+        foreach ($response->data as $one)
+        {
+            $formation[] = new Formation($one->id, $one->formation_libelle, $one->date);
+        }
+        return $formation;
     }
 
     /**
@@ -98,7 +110,13 @@ class Formation
     {
         $url = self::getUrl() . '/employee/' . $employee_id;
         $response = API::call($url);
-        return $response;
+
+        $formation = array();
+        foreach ($response->data as $one)
+        {
+            $formation[] = new Formation($one->id, $one->formation_libelle, $one->date);
+        }
+        return $formation;
     }
 
     /**
@@ -110,7 +128,13 @@ class Formation
     {
         $url = self::getUrl() . '/employee/' . $employee_id . '/' . $date;
         $response = API::call($url);
-        return $response;
+
+        $formation = array();
+        foreach ($response->data as $one)
+        {
+            $formation[] = new Formation($one->id, $one->formation_libelle, $one->date);
+        }
+        return $formation;
     }
 
 
