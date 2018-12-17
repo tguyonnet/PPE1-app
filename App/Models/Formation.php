@@ -1,8 +1,13 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: usersio
+ * Date: 16/12/18
+ * Time: 12:51
+ */
 
 namespace Models;
 require 'API.php';
-
 
 class Formation
 {
@@ -111,12 +116,18 @@ class Formation
         $url = self::getUrl() . '/employee/' . $employee_id;
         $response = API::call($url);
 
-        $formation = array();
-        foreach ($response->data as $one)
+        if (isset($response))
         {
-            $formation[] = new Formation($one->id, $one->formation_libelle, $one->date);
+            $formation = array();
+            foreach ($response->data as $one)
+            {
+                $formation[] = new Formation($one->id, $one->formation_libelle, $one->date);
+            }
+        }else{
+            $formation = null;
         }
         return $formation;
+
     }
 
     /**

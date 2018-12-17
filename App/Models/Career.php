@@ -3,7 +3,6 @@
 namespace Models;
 require 'API.php';
 
-
 class Career
 {
     //Post
