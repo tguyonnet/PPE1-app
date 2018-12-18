@@ -1,7 +1,7 @@
 <?php
 
 // * Fonctions d'accès aux datas
-require '../App/Models/Formation.php';
+include '../App/Models/Formation.php';
 
 
 function formationControle($action) {
