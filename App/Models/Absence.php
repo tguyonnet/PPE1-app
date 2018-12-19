@@ -7,6 +7,8 @@
  */
 
 namespace Models;
+use Core\Config;
+
 require 'API.php';
 
 class Absence
@@ -95,7 +97,7 @@ class Absence
      */
     private static function getUrl()
     {
-        return \Config\Config::API_URL . '/absence';
+        return Config::API_URL . '/absence';
     }
 
 

@@ -8,12 +8,18 @@
 
 namespace Controllers;
 
+use Models\Absence;
+use Models\Employee;
 
 class AbsenceController extends Controller
 {
     public function index($request, $response)
     {
-        return $this->view->render($response, 'absence.twig',['title' => 'Absence']);
+        $absences =  Absence::getAllByEmployeeId($_SESSION['id']);
+//        $employee = Employee::getEmployee($absences[0]->getEmployeeId());
+
+
+        return $this->view->render($response, 'absence.twig',['title' => 'Absence', 'absences' => $absences]);
     }
 
 }

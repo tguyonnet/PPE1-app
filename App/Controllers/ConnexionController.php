@@ -10,10 +10,10 @@ namespace Controllers;
 use Core\Config;
 use Models\API;
 
-class Connexion extends Controller
+class ConnexionController extends Controller
 {
     public function getLogin($request, $response){
-        return $this->view->render($response, 'login.twig', ['title' => 'Connexion']);
+        return $this->view->render($response, 'login.twig', ['title' => 'ConnexionController']);
     }
 
 

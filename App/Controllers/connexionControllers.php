@@ -28,7 +28,7 @@ function connexionControle($action) {
 
 // Voir la notion de paramètres par défaut dans une fonction PHP !
 function connexionControle_formAction($message=null) {
-    $titreOnglet="SANOFI - Connexion";
+    $titreOnglet="SANOFI - ConnexionController";
     $titrePage='Se connecter à '.Config\Config::APPLI_NAME.' '.Config\Config::APPLI_VERSION;
     $alerte = $message;
     require '../App/Views/connexion.php';

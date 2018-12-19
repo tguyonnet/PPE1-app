@@ -38,8 +38,8 @@ $app->get('/Carriere', \Controllers\CarriereController::class . ':index')->setNa
 $app->get('/Absence', \Controllers\AbsenceController::class . ':index')->setName('absence');
 $app->get('/Dashboard', \Controllers\DashboardController::class . ':index')->setName('dashboard');
 
-$app->get('/', \Controllers\Connexion::class . ':getLogin')->setName('login');
-$app->post('/', \Controllers\Connexion::class . ':postLogin');
+$app->get('/', \Controllers\ConnexionController::class . ':getLogin')->setName('login');
+$app->post('/', \Controllers\ConnexionController::class . ':postLogin');
 
 
 

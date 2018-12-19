@@ -17,6 +17,6 @@ function absenceControle_defaultAction() {
 	$titreOnglet="SANOFI - Absence";
     $titrePage="Absence";
     $absences =  Models\Absence::getAllByEmployeeId($_SESSION['id']);
-//    $employee = Models\Employee::getEmployee($absences[0]->getEmployeeId());
+    $employee = Models\Employee::getEmployee($absences[0]->getEmployeeId());
     require '../App/Views/absence.php';
 }
