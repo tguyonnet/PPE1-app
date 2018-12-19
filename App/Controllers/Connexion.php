@@ -19,7 +19,7 @@ class Connexion extends Controller
 
     public function postLogin($request, $response)
     {
-        /*
+
         $email = $request->getParam('email');
         $password = $request->getParam('password');
 
@@ -30,27 +30,22 @@ class Connexion extends Controller
             $_SESSION['id'] = $result->data;
             $this->flush('Vous êtes connecté ! ');
 
-            return $response->withStatus(302)->withHeader('Location', $this->container->router->pathFor('login'));
+            return $response->withStatus(302)->withHeader('Location', $this->container->router->pathFor('dashboard'));
 
         }else{
             $this->flush('Veuillez vous connecter !');
-
-            $this->redirect($response, 'login');
-        }
-        */
-
-        if(false){
-            $this->flush('Vous êtes connecté ! ');
-
-
-        }else{
-            $this->flush('Vous n\'êtes pas connecté ! ');
-
         }
 
         return $response->withStatus(302)->withHeader('Location', $this->container->router->pathFor('login'));
 
-
+        /*
+                if(false){
+                    $this->flush('Vous êtes connecté ! ');
+                }else{
+                    $this->flush('Vous n\'êtes pas connecté ! ');
+                }
+                return $response->withStatus(302)->withHeader('Location', $this->container->router->pathFor('dashboard'));
+        */
     }
 
 

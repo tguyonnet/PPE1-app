@@ -47,7 +47,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><?php echo Config\Config::APPLI_NAME.' '.Config\Config::APPLI_VERSION; ?></a>
+            <a class="navbar-brand" href="{{ path_for('dashboard') }}">Sanofi<?php echo Config\Config::APPLI_NAME.' '.Config\Config::APPLI_VERSION; ?></a>
         </div>
         <!-- /.navbar-header -->
 
@@ -60,7 +60,8 @@
                     <li><a href="#"><i class="fa fa-gear fa-fw"></i> Paramètres</a>
                     </li>
                     <li class="divider"></li>
-                    <li><a href="../index.php?c=connexion&action=deconnecter"><i class="fa fa-sign-out fa-fw"></i> Déconnexion</a>
+                    <li><a href="#"><i class="fa fa-sign-out fa-fw"></i> Déconnexion</a>
+                    {#<li><a href="../index.php?c=connexion&action=deconnecter"><i class="fa fa-sign-out fa-fw"></i> Déconnexion</a>#}
                     </li>
                 </ul>
                 <!-- /.dropdown-user -->
@@ -84,16 +85,16 @@
                         <!-- /input-group -->
                     </li>
                     <li>
-                        <a href="{{ path_for('home') }}"><i class="fa fa-dashboard fa-fw"></i>  Dashboard</a>
+                        <a href="{{ path_for('dashboard') }}"><i class="fa fa-dashboard fa-fw"></i>  Dashboard</a>
                     </li>
                     <li>
                         <a href="{{ path_for('formation') }}"><i class="fa fa-info-circle"></i>  Formation</a>
                     </li>
                     <li>
-                        <a href="../index.php?c=Carriere"><i class="fa fa-user"></i>  Carrière</a>
+                        <a href="{{ path_for('carriere') }}"><i class="fa fa-user"></i>  Carrière</a>
                     </li>
                     <li>
-                        <a href="../index.php?c=Absence"><i class="fa fa-times-circle"></i>  Absence</a>
+                        <a href="{{ path_for('absence') }}"><i class="fa fa-times-circle"></i>  Absence</a>
                     </li>
                 </ul>
             </div>

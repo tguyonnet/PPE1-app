@@ -9,10 +9,10 @@
 namespace Controllers;
 
 
-class AccueilController extends Controller
+class DashboardController extends Controller
 {
     public function index($request, $response){
-        return $this->view->render($response, 'accueil.php',['title' => 'Dashboard']);
+        return $this->view->render($response, 'dashboard.twig',['title' => 'Dashboard']);
     }
 
 }

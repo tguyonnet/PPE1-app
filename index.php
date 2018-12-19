@@ -33,10 +33,13 @@ $container['view'] = function ($container){
 $app->add(new \Middleware\IsConnected($container->view->getEnvironment()));
 
 
-$app->get('/Home', \Controllers\HomeController::class . ':index')->setName('dashboard');
 $app->get('/Formation', \Controllers\FormationController::class . ':index')->setName('formation');
-$app->get('/Connexion', \Controllers\Connexion::class . ':getLogin')->setName('login');
-$app->post('/Connexion', \Controllers\Connexion::class . ':postLogin');
+$app->get('/Carriere', \Controllers\CarriereController::class . ':index')->setName('carriere');
+$app->get('/Absence', \Controllers\AbsenceController::class . ':index')->setName('absence');
+$app->get('/Dashboard', \Controllers\DashboardController::class . ':index')->setName('dashboard');
+
+$app->get('/', \Controllers\Connexion::class . ':getLogin')->setName('login');
+$app->post('/', \Controllers\Connexion::class . ':postLogin');
 
 
 

@@ -10,17 +10,6 @@
 <div id="main-connexion">
     <title>{{ title }}</title>
 
-    {% if flush.success %}
-        <div class="alert alert-success">
-            {{ flush.success }}
-        </div>
-    {% endif %}
-
-    {% if flush.error %}
-        <div class="alert alert-danger">
-            {{ flush.error }}
-        </div>
-    {% endif %}
 
     <form method="POST" action="{{ path_for('login') }}">
         <label for="email" >Adresse email</label>
