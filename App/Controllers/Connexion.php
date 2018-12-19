@@ -9,7 +9,12 @@
 namespace Controllers;
 
 
-class Connexion
+class Connexion extends Controller
 {
+    public function index($request, $response)
+    {
+        return $this->view->render($response, 'connexion.php', ['title' => 'Connexion']);
+    }
+
 
 }

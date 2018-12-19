@@ -1,7 +1,7 @@
 <?php
 
 // * Fonctions d'accès aux datas
-include '../App/Models/Formation.php';
+//include '../App/Models/Formation.php';
 
 
 function formationControle($action) {
@@ -16,6 +16,7 @@ function formationControle($action) {
 function formationControle_defaultAction() {
 	$titreOnglet="SANOFI - Formation";
     $titrePage="Formation";
-    $formations =  Models\Formation::getFormationEmployee($_SESSION['id']);
+//    $formations =  Models\Formation::getFormationEmployee($_SESSION['id']);
     require '../App/Views/formation.php';
 }
+

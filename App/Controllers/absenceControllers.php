@@ -2,7 +2,7 @@
 
 // * Fonctions d'accès aux données.
 include '../App/Models/Absence.php';
-include '../App/Models/Employee.php';
+//include '../App/Models/Employee.php';
 
 function absenceControle($action) {
 	// * Sélecteur d'actions pour la page d'authentification. Défini les actions à faire en fonction du click précédent puis la page à afficher ensuite
@@ -17,6 +17,6 @@ function absenceControle_defaultAction() {
 	$titreOnglet="SANOFI - Absence";
     $titrePage="Absence";
     $absences =  Models\Absence::getAllByEmployeeId($_SESSION['id']);
-    $employee = Models\Employee::getEmployee($absences[0]->getEmployeeId());
+//    $employee = Models\Employee::getEmployee($absences[0]->getEmployeeId());
     require '../App/Views/absence.php';
 }

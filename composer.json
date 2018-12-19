@@ -4,7 +4,9 @@
       "Controllers\\":"App/Controllers",
       "Models\\": "App/Models",
       "Core\\": "Core/",
-      "Config\\": "Config/"
+      "Config\\": "Config/",
+      "Middleware\\": "App/Middleware/"
+
     }
   },
   "require": {

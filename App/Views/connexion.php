@@ -5,7 +5,7 @@ include('template/head.php');
 <body class="bg-dark">
 	<div id="main-connexion">
 		<title>Connexion</title>
-		<form method="POST" action="index.php?action=connecter">
+		<form method="POST" action="/Dashboard">
 			<label for="email" >Adresse email</label>
 			<input type="email" id="email" name="email" placeholder="Votre adresse mail" value="petitjean.elise@voila.fr">
 			<label for="mdp" >Mot de passe</label>

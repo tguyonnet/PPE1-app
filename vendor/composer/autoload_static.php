@@ -36,6 +36,7 @@ class ComposerStaticInitac82fe38c614c68bca1abe2b7dc5b9ad
         'M' => 
         array (
             'Models\\' => 7,
+            'Middleware\\' => 11,
         ),
         'I' => 
         array (
@@ -89,6 +90,10 @@ class ComposerStaticInitac82fe38c614c68bca1abe2b7dc5b9ad
         'Models\\' => 
         array (
             0 => __DIR__ . '/../..' . '/App/Models',
+        ),
+        'Middleware\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/App/Middleware',
         ),
         'Interop\\Container\\' => 
         array (
