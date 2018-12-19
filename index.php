@@ -30,7 +30,7 @@ $container['view'] = function ($container){
 
 
 //Middleware
-$app->add(new \Middleware\IsConnected($container->view->getEnvironment()));
+$app->add(new \Middleware\IsConnected());
 
 
 $app->get('/Formation', \Controllers\FormationController::class . ':index')->setName('formation');

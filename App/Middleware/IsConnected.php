@@ -13,19 +13,6 @@ use Slim\Http\Request;
 
 class IsConnected{
 
-    /**
-     * @var \Twig_Environment
-     */
-    private $twig;
-
-    /**
-     * IsConnected constructor.
-     * @param \Twig_Environment $twig
-     */
-    public function __construct(\Twig_Environment $twig)
-    {
-        $this->twig = $twig;
-    }
 
     public function __invoke(Request $request, Response $response, $next)
     {
@@ -34,10 +21,6 @@ class IsConnected{
 //            return $response->withStatus(200)->withHeader('Location', 'login');
 //        }
 
-        $this->twig->addGlobal('flush', isset($_SESSION['flush']) ? $_SESSION['flush'] : [] );
-        if (isset($_SESSION['flush'])){
-            unset($_SESSION['flush']);
-        }
 
         return $next($request, $response);
 

@@ -19,7 +19,8 @@ class AbsenceController extends Controller
 //        $employee = Employee::getEmployee($absences[0]->getEmployeeId());
 
 
-        return $this->view->render($response, 'absence.twig',['title' => 'Absence', 'absences' => $absences]);
+
+        return $this->view->render($response, 'absence.twig',['title' => 'Absence', 'absences' => $absences ]);//, 'employee' => $employee]);
     }
 
 }
