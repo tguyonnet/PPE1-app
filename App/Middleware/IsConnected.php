@@ -8,14 +8,16 @@
 
 namespace Middleware;
 
+use Slim\Http\Response;
+use Slim\Http\Request;
 
 class IsConnected
 {
-    public function __invoke($response, $request, $next)
+    public function __invoke(Request $request, Response $response, $next)
     {
         $route = ['Connexion'];
         if(!isset($_SESSION['id']) ){
-            $response->getBody()->write('connexion');
+            return $response->withStatus(200)->withHeader('Location', 'login');
         }else{
             $response = $next($request, $response);
         }

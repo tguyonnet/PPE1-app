@@ -1,6 +1,8 @@
 <?php
 
 namespace Models;
+use Core\Config;
+
 require 'API.php';
 
 class Career
@@ -156,7 +158,7 @@ class Career
      */
     private static function getUrl()
     {
-        return \Config\Config::API_URL . '/career/';
+        return Config::API_URL . '/career/';
     }
 
 

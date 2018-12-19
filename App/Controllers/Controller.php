@@ -8,7 +8,6 @@
 
 namespace Controllers;
 
-
 class Controller
 {
     protected $container;
@@ -17,10 +16,16 @@ class Controller
         $this->container = $container;
     }
 
+
     public function __get($property){
         if ($this->container->{$property}){
             return $this->container->{$property};
         }
+    }
+
+    public function redirect($response, $name)
+    {
+        return $response->withStatus(302)->withHeader('Location', $this->router->pathFor($name));
     }
 
 

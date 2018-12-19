@@ -4,7 +4,6 @@
       "Controllers\\":"App/Controllers",
       "Models\\": "App/Models",
       "Core\\": "Core/",
-      "Config\\": "Config/",
       "Middleware\\": "App/Middleware/"
 
     }

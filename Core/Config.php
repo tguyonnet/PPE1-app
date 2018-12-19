@@ -1,5 +1,5 @@
 <?php
-namespace Config;
+namespace Core;
 
 class Config {
 	// Paramètres pour l'accès à la base de données

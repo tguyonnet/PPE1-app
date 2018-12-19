@@ -11,7 +11,7 @@ namespace Controllers;
 
 class HomeController extends Controller
 {
-    public function index($request, $response){
+    public function index($request, $response, $args){
         return $this->view->render($response, 'accueil.php');
 
     }

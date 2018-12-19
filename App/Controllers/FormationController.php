@@ -11,9 +11,9 @@ namespace Controllers;
 
 class FormationController extends Controller
 {
-    public function index($request, $response){
-        return $this->view->render($response, 'formation.twig',['title' => 'Home']);
-
+    public function index($request, $response)
+    {
+        return $this->view->render($response, 'formation.twig',['title' => 'Formation']);
     }
 
 }
