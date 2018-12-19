@@ -12,10 +12,10 @@ use Models\API;
 
 class Connexion extends Controller
 {
-    public function getLogin($request, $response)
-    {
+    public function getLogin($request, $response){
         return $this->view->render($response, 'login.twig', ['title' => 'Connexion']);
     }
+
 
     public function postLogin($request, $response)
     {
@@ -27,8 +27,16 @@ class Connexion extends Controller
 
         if ($result->data!=null) {
             $_SESSION['id'] = $result->data;
-            $this->redirect($response, 'home');
+            $this->flush('Vous êtes connecté ! ');
 
+            $this->redirect($response, 'dashboard');
+            echo'Connecté';
+
+        }else{
+            $this->flush('Veuillez vous connecter !');
+
+            $this->redirect($response, 'login');
+            echo'n connecté';
         }
 
     }

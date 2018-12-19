@@ -9,6 +9,13 @@
 <body class="bg-dark">
 <div id="main-connexion">
     <title>{{ title }}</title>
+
+    {% if flash.success %}
+        <div class="alert alert-success">
+            {{ flash.success }}
+        </div>
+    {% endif %}
+
     <form method="POST" action="{{ path_for('login') }}">
         <label for="email" >Adresse email</label>
         <input type="email" id="email" name="email" placeholder="Votre adresse mail" value="petitjean.elise@voila.fr">

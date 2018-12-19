@@ -15,7 +15,7 @@ class IsConnected
 {
     public function __invoke(Request $request, Response $response, $next)
     {
-        $route = ['Connexion'];
+
         if(!isset($_SESSION['id']) ){
             return $response->withStatus(200)->withHeader('Location', 'login');
         }else{

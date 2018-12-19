@@ -1,10 +1,9 @@
 <?php
 
-
-session_start();
-
 require __DIR__.'/vendor/autoload.php';
 
+
+session_start();
 
 
 $config['displayErrorDetails'] = true;
@@ -32,7 +31,7 @@ $container['view'] = function ($container){
 
 
 
-$app->get('/Home', \Controllers\HomeController::class . ':index')->setName('home');
+$app->get('/Home', \Controllers\HomeController::class . ':index')->setName('dashboard');
 $app->get('/Formation', \Controllers\FormationController::class . ':index')->setName('formation');
 $app->get('/Connexion', \Controllers\Connexion::class . ':getLogin')->setName('login');
 $app->post('/Connexion', \Controllers\Connexion::class . ':postLogin');

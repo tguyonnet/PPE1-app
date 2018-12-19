@@ -23,9 +23,18 @@ class Controller
         }
     }
 
-    public function redirect($response, $name)
-    {
-        return $response->withStatus(302)->withHeader('Location', $this->router->pathFor($name));
+    public function redirect($response, $name){
+
+        return $response->withStatus(302)->withHeader('Location', $this->container->router->pathFor($name));
+
+    }
+
+    public function flush($message, $type='succes'){
+        if(isset($_SESSION['flush'])){
+            $_SESSION['flush'] = [];
+        }
+        return $_SESSION['flush'][$type]= $message;
+
     }
 
 
