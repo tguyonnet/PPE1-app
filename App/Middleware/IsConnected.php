@@ -11,17 +11,36 @@ namespace Middleware;
 use Slim\Http\Response;
 use Slim\Http\Request;
 
-class IsConnected
-{
+class IsConnected{
+
+    /**
+     * @var \Twig_Environment
+     */
+    private $twig;
+
+    /**
+     * IsConnected constructor.
+     * @param \Twig_Environment $twig
+     */
+    public function __construct(\Twig_Environment $twig)
+    {
+        $this->twig = $twig;
+    }
+
     public function __invoke(Request $request, Response $response, $next)
     {
 
-        if(!isset($_SESSION['id']) ){
-            return $response->withStatus(200)->withHeader('Location', 'login');
-        }else{
-            $response = $next($request, $response);
+//        if(!isset($_SESSION['id']) ){
+//            return $response->withStatus(200)->withHeader('Location', 'login');
+//        }
+
+        $this->twig->addGlobal('flush', isset($_SESSION['flush']) ? $_SESSION['flush'] : [] );
+        if (isset($_SESSION['flush'])){
+            unset($_SESSION['flush']);
         }
-        return $response;
+
+        return $next($request, $response);
+
     }
 
 

@@ -12,10 +12,10 @@ $config['addContentLengthHeader'] = false;
 $app = new \Slim\App(['settings' => $config]);
 
 
-//$app->add(new \Middleware\IsConnected());
 
 
 $container = $app->getContainer();
+
 
 $container['view'] = function ($container){
 
@@ -29,6 +29,8 @@ $container['view'] = function ($container){
 };
 
 
+//Middleware
+$app->add(new \Middleware\IsConnected($container->view->getEnvironment()));
 
 
 $app->get('/Home', \Controllers\HomeController::class . ':index')->setName('dashboard');

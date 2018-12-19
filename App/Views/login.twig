@@ -10,9 +10,15 @@
 <div id="main-connexion">
     <title>{{ title }}</title>
 
-    {% if flash.success %}
+    {% if flush.success %}
         <div class="alert alert-success">
-            {{ flash.success }}
+            {{ flush.success }}
+        </div>
+    {% endif %}
+
+    {% if flush.error %}
+        <div class="alert alert-danger">
+            {{ flush.error }}
         </div>
     {% endif %}
 
