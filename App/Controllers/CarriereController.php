@@ -9,11 +9,16 @@
 namespace Controllers;
 
 
+use Core\Config;
+
 class CarriereController extends Controller
 {
     public function index($request, $response)
     {
-        return $this->view->render($response, 'carriere.twig',['title' => 'Carriere']);
+
+        $page = ['title'=>'Carriere', 'footer'=> Config::APPLI_NAME .' '. Config::APPLI_VERSION];
+
+        return $this->view->render($response, 'carriere.twig',['page' => $page]);
     }
 
 }

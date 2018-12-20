@@ -9,10 +9,16 @@
 namespace Controllers;
 
 
+use Core\Config;
+
 class DashboardController extends Controller
 {
     public function index($request, $response){
-        return $this->view->render($response, 'dashboard.twig',['title' => 'Dashboard']);
+
+        $page = ['title'=>'Dashboard', 'footer'=> Config::APPLI_NAME .' '. Config::APPLI_VERSION];
+
+
+        return $this->view->render($response, 'dashboard.twig',['page' => $page]);
     }
 
 }

@@ -33,6 +33,8 @@ $container['view'] = function ($container){
 $app->add(new \Middleware\IsConnected());
 
 
+
+
 $app->get('/Formation', \Controllers\FormationController::class . ':index')->setName('formation');
 $app->get('/Carriere', \Controllers\CarriereController::class . ':index')->setName('carriere');
 $app->get('/Absence', \Controllers\AbsenceController::class . ':index')->setName('absence');

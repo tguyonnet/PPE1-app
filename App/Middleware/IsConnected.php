@@ -20,15 +20,12 @@ class IsConnected{
          * si la session est valide ca renvoi vers la route demandée.
          * sinon login.
          */
-//        if(!isset($_SESSION['id'])  ) {
-//
-////            if($request->getUri() != 'http://app.test/Login'){
-//            if($request->getUri()->getPath() == 'Login'){
-//                return $response->withStatus(200)->withHeader('Location', 'Login');
-//            }
-//
-//        }
+        if(!isset($_SESSION['id']) ) {
 
+            if( $_SERVER['REQUEST_URI'] != '/Login' ){
+                return $response->withStatus(200)->withHeader('Location', 'Login');
+            }
+        }
 
         return $next($request, $response);
 

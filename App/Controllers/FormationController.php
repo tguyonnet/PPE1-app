@@ -8,6 +8,7 @@
 
 namespace Controllers;
 
+use Core\Config;
 use Models\Formation;
 
 class FormationController extends Controller
@@ -15,7 +16,11 @@ class FormationController extends Controller
     public function index($request, $response)
     {
         $formations =  Formation::getFormationEmployee($_SESSION['id']);
-        return $this->view->render($response, 'formation.twig',['title' => 'Formation', 'formations' => $formations]);
+
+        $page = ['title'=>'Formation', 'footer'=> Config::APPLI_NAME .' '. Config::APPLI_VERSION];
+
+
+        return $this->view->render($response, 'formation.twig',['page' => $page, 'formations' => $formations]);
     }
 
 }

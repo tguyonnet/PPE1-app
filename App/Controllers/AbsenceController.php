@@ -18,9 +18,9 @@ class AbsenceController extends Controller
     {
         $absences = Absence::getAllByEmployeeId($_SESSION['id']);
         $employee = Employee::getEmployee($_SESSION['id']);
-    var_dump($request);
+
         $page = ['title'=>'Absence', 'footer'=> Config::APPLI_NAME .' '. Config::APPLI_VERSION];
-//,  'employee' => $employee
+
         return $this->view->render($response, 'absence.twig',['page' => $page, 'absences' => $absences,  'employee' => $employee]);
     }
 
