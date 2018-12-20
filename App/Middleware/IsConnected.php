@@ -16,9 +16,17 @@ class IsConnected{
 
     public function __invoke(Request $request, Response $response, $next)
     {
-
-//        if(!isset($_SESSION['id']) ){
-//            return $response->withStatus(200)->withHeader('Location', 'login');
+        /**
+         * si la session est valide ca renvoi vers la route demandée.
+         * sinon login.
+         */
+//        if(!isset($_SESSION['id'])  ) {
+//
+////            if($request->getUri() != 'http://app.test/Login'){
+//            if($request->getUri()->getPath() == 'Login'){
+//                return $response->withStatus(200)->withHeader('Location', 'Login');
+//            }
+//
 //        }
 
 

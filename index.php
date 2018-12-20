@@ -38,8 +38,9 @@ $app->get('/Carriere', \Controllers\CarriereController::class . ':index')->setNa
 $app->get('/Absence', \Controllers\AbsenceController::class . ':index')->setName('absence');
 $app->get('/Dashboard', \Controllers\DashboardController::class . ':index')->setName('dashboard');
 
-$app->get('/', \Controllers\ConnexionController::class . ':getLogin')->setName('login');
-$app->post('/', \Controllers\ConnexionController::class . ':postLogin');
+$app->get('/Disconnect', \Controllers\ConnexionController::class . ':getLogout')->setName('logout');
+$app->get('/Login', \Controllers\ConnexionController::class . ':getLogin')->setName('login');
+$app->post('/Login', \Controllers\ConnexionController::class . ':postLogin');
 
 
 

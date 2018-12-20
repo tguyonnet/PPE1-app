@@ -8,12 +8,14 @@
 
 namespace Controllers;
 
+use Models\Formation;
 
 class FormationController extends Controller
 {
     public function index($request, $response)
     {
-        return $this->view->render($response, 'formation.twig',['title' => 'Formation']);
+        $formations =  Formation::getFormationEmployee($_SESSION['id']);
+        return $this->view->render($response, 'formation.twig',['title' => 'Formation', 'formations' => $formations]);
     }
 
 }

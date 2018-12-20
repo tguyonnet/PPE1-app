@@ -8,8 +8,7 @@
 
 namespace Models;
 use Core\Config;
-
-require 'API.php';
+use Models\API;
 
 class Absence
 {

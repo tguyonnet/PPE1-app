@@ -7,7 +7,9 @@
  */
 
 namespace Models;
-require 'API.php';
+use Core\Config;
+use Models\API;
+
 
 class Formation
 {
@@ -58,7 +60,7 @@ class Formation
      */
     private static function getUrl()
     {
-        return \Config\Config::API_URL . '/formation/';
+        return Config::API_URL . '/formation/';
     }
 
 
