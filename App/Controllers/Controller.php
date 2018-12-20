@@ -8,6 +8,9 @@
 
 namespace Controllers;
 
+use Core\Config;
+use Models\Employee;
+
 class Controller
 {
     protected $container;
@@ -37,5 +40,11 @@ class Controller
 
     }
 
+    public function display($title){
+        $employee = Employee::getEmployee($_SESSION['id']);
+
+        return ['title'=> $title, 'footer' => Config::APPLI_NAME .' '. Config::APPLI_VERSION, 'employee' => $employee];
+
+    }
 
 }

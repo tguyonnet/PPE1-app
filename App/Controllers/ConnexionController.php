@@ -42,27 +42,16 @@ class ConnexionController extends Controller
         if ($result->data!=null) {
             $_SESSION['id'] = $result->data;
 
+
             $employee = Employee::getEmployee($_SESSION['id']);
             $_SESSION['name'] = $employee[0]->getName();
             $_SESSION['firstname'] = $employee[0]->getFirstname();
             $_SESSION['email'] = $employee[0]->getEmail();
 
-
         }
 
         return $response->withStatus(302)->withHeader('Location', $this->container->router->pathFor('absence'));
 
-
-//        return $response->withStatus(302)->withHeader('Location', $this->container->router->pathFor('login'));
-
-        /*
-                if(false){
-                    $this->flush('Vous êtes connecté ! ');
-                }else{
-                    $this->flush('Vous n\'êtes pas connecté ! ');
-                }
-                return $response->withStatus(302)->withHeader('Location', $this->container->router->pathFor('dashboard'));
-        */
     }
 
 
