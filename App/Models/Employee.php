@@ -2,8 +2,6 @@
 
 namespace Models;
 use Core\Config;
-use Models\API;
-
 
 class Employee
 {
@@ -165,14 +163,7 @@ class Employee
     public static function getEmployeeId($email, $password)
     {
         $url = self::getUrl() . $email . '/' . $password;
-        $response = API::call($url);
-
-        $employee = array();
-        foreach ($response->data as $one)
-        {
-            $employee[] = new Employee($one->id, $one->city, $one->name, $one->firstname, $one->street_address, $one->postal_code, $one->birthdate, $one->appli_pw, $one->email, $one->cellphone);
-        }
-        return $employee;
+        return API::call($url);
 
     }
 

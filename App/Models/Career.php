@@ -2,7 +2,6 @@
 
 namespace Models;
 use Core\Config;
-use Models\API;
 
 class Career
 {
@@ -28,8 +27,6 @@ class Career
     private $departure_date;
 
 
-
-    //modifier la route pour tout afficher en une seule route.
 
     /**
      * Career constructor.

@@ -8,19 +8,20 @@
 
 namespace Controllers;
 
-use Core\Config;
 use Models\Formation;
 
 class FormationController extends Controller
 {
+    /**
+     * Affiche la vue formation.twig
+     * @param $request
+     * @param $response
+     * @return mixed
+     */
     public function index($request, $response)
     {
         $formations =  Formation::getFormationEmployee($_SESSION['id']);
-
-        $page = ['title'=>'Formation', 'footer'=> Config::APPLI_NAME .' '. Config::APPLI_VERSION];
-
-
-        return $this->view->render($response, 'formation.twig',['page' => $page, 'formations' => $formations]);
+        return $this->view->render($response, 'formation.twig', ['page' => self::display('Absence'), 'formations' => $formations]);
     }
 
 }

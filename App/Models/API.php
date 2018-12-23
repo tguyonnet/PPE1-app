@@ -4,6 +4,7 @@ namespace Models;
 class API {
 
     /**
+     * Methode de connexion a l'api.
      * @param $url
      * @return mixed|string
      */

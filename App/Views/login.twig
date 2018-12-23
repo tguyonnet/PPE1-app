@@ -10,8 +10,6 @@
 <div id="main-connexion">
     <title>{{ title }}</title>
 
-    <a>{{ alerte }}</a>
-
     <form method="POST" action="{{ path_for('login') }}">
         <label for="email" >Adresse email</label>
         <input type="email" id="email" name="email" placeholder="Votre adresse mail" value="petitjean.elise@voila.fr">
@@ -19,7 +17,6 @@
         <input type="password" id="mdp" name="password" placeholder="Votre mot de passe" value="pwDeschamps">
         <input type="submit" value="Connexion">
     </form>
-    <small><?php echo $alerte; ?></small>
 </div>
 </body>
 </html>

@@ -8,17 +8,17 @@
 
 namespace Controllers;
 
-
-use Core\Config;
-
 class CarriereController extends Controller
 {
+    /**
+     * Afficher la vue carriere.twig
+     * @param $request
+     * @param $response
+     * @return mixed
+     */
     public function index($request, $response)
     {
-
-        $page = ['title'=>'Carriere', 'footer'=> Config::APPLI_NAME .' '. Config::APPLI_VERSION];
-
-        return $this->view->render($response, 'carriere.twig',['page' => $page]);
+        return $this->view->render($response, 'carriere.twig',['page' => self::display('Carriere')]);
     }
 
 }

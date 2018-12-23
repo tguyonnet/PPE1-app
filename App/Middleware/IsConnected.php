@@ -22,11 +22,10 @@ class IsConnected{
          */
         if(!isset($_SESSION['id']) ) {
 
-            if( $_SERVER['REQUEST_URI'] != '/Login' ){
-                return $response->withStatus(200)->withHeader('Location', 'Login');
+            if( $_SERVER['REQUEST_URI'] != '/Connexion' ){
+                return $response->withStatus(200)->withHeader('Location', 'Connexion');
             }
         }
-
         return $next($request, $response);
 
     }

@@ -8,16 +8,37 @@
 
 namespace Models;
 use Core\Config;
-use Models\API;
 
 class Absence
 {
-
+    /**
+     * @var int
+     */
     private $id;
+
+    /**
+     * @var date
+     */
     private $start_date;
+
+    /**
+     * @var date
+     */
     private $end_date;
+
+    /**
+     * @var string
+     */
     private $absence_pattern;
+
+    /**
+     * @var string
+     */
     private $type;
+
+    /**
+     * @var int
+     */
     private $employee_id;
 
     /**
@@ -104,6 +125,7 @@ class Absence
 
 
     /**
+     * Renvoi tous les employées en fonction d'un employee.id.
      * @param $employeeId
      * @return array
      */
@@ -121,6 +143,7 @@ class Absence
     }
 
     /**
+     * Renvoi une absence en fonction d'une date.
      * @param $date
      * @return mixed|string
      */
