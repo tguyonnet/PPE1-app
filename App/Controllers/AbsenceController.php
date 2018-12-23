@@ -8,10 +8,7 @@
 
 namespace Controllers;
 
-use Core\Config;
 use Models\Absence;
-use Models\API;
-use Models\Employee;
 
 class AbsenceController extends Controller
 {
