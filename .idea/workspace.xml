@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63ff984a-2c3e-4e5c-bffb-aa450a3fca35" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/FormationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/FormationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/absence.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/absence.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/carriere.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/carriere.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/dashboard.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/dashboard.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/formation.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/formation.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/login.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/login.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,43 +21,7 @@
         <entry file="file://$PROJECT_DIR$/App/Views/formation.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/sb-admin2/pages/tables.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6816">
-              <caret line="817" selection-start-line="375" selection-end-line="817" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Views/carriere.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Views/dashboard.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/Views/absence.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -75,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/Views/login.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="240">
+              <caret line="16" column="107" selection-start-line="16" selection-start-column="107" selection-end-line="16" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -149,7 +109,6 @@
         <option value="$PROJECT_DIR$/App/Models/API.php" />
         <option value="$PROJECT_DIR$/App/Models/Career.php" />
         <option value="$PROJECT_DIR$/App/Models/Absence.php" />
-        <option value="$PROJECT_DIR$/App/Views/login.twig" />
         <option value="$PROJECT_DIR$/App/Models/Employee.php" />
         <option value="$PROJECT_DIR$/App/Controllers/ConnexionController.php" />
         <option value="$PROJECT_DIR$/App/Controllers/Controller.php" />
@@ -161,6 +120,7 @@
         <option value="$PROJECT_DIR$/App/Views/layout.twig" />
         <option value="$PROJECT_DIR$/App/Views/formation.twig" />
         <option value="$PROJECT_DIR$/App/Views/absence.twig" />
+        <option value="$PROJECT_DIR$/App/Views/login.twig" />
       </list>
     </option>
   </component>
@@ -192,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,12 +205,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sanofi_api_v0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -326,7 +286,8 @@
       <workItem from="1545309350751" duration="3938000" />
       <workItem from="1545317840441" duration="4929000" />
       <workItem from="1545329827340" duration="5388000" />
-      <workItem from="1545587579996" duration="5866000" />
+      <workItem from="1545587579996" duration="5942000" />
+      <workItem from="1545594328106" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1543494761666</created>
@@ -650,17 +611,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545591215508</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="update formation / absence">
+      <created>1545593509055</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1545593509055</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153778000" />
+    <option name="totallyTimeSpent" value="154169000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1918" height="903" extended-state="6" />
+    <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16951871" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17129135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -708,7 +676,8 @@
     <MESSAGE value="update AbsenceController" />
     <MESSAGE value="update Models/formation" />
     <MESSAGE value="update formation.twig" />
-    <option name="LAST_COMMIT_MESSAGE" value="update formation.twig" />
+    <MESSAGE value="update formation / absence" />
+    <option name="LAST_COMMIT_MESSAGE" value="update formation / absence" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/App/Views/template/footer.php">
@@ -927,38 +896,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/login.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/sb-admin2/pages/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controllers/FormationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="99" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/carriere.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/dashboard.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -979,10 +920,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/formation.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/sb-admin2/pages/tables.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6816">
+        <state relative-caret-position="12255">
           <caret line="817" selection-start-line="375" selection-end-line="817" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/carriere.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/dashboard.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/FormationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="99" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
         </state>
       </provider>
     </entry>
@@ -993,17 +962,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/formation.twig">
+    <entry file="file://$PROJECT_DIR$/App/Views/absence.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="360">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/absence.twig">
+    <entry file="file://$PROJECT_DIR$/App/Views/login.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="240">
+          <caret line="16" column="107" selection-start-line="16" selection-start-column="107" selection-end-line="16" selection-end-column="107" />
         </state>
       </provider>
     </entry>
