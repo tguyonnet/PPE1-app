@@ -21,7 +21,7 @@ class FormationController extends Controller
     public function index($request, $response)
     {
         $formations =  Formation::getFormationEmployee($_SESSION['id']);
-        return $this->view->render($response, 'formation.twig', ['page' => self::display('Absence'), 'formations' => $formations]);
+        return $this->view->render($response, 'formation.twig', ['page' => self::display('Formation'), 'formations' => $formations]);
     }
 
 }
