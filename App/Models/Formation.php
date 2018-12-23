@@ -96,7 +96,7 @@ class Formation
      */
     public static function getFormationDate($date)
     {
-        $url = self::getUrl() . '/date/' . $date;
+        $url = self::getUrl() . 'date/' . $date;
         $response = API::call($url);
 
         $formation = array();
@@ -113,7 +113,7 @@ class Formation
      */
     public static function getFormationEmployee($employee_id)
     {
-        $url = self::getUrl() . '/employee/' . $employee_id;
+        $url = self::getUrl() . 'employee/' . $employee_id;
         $response = API::call($url);
 
         if (isset($response))
@@ -137,7 +137,7 @@ class Formation
      */
     public static function getFormationEmployeeDate($employee_id, $date)
     {
-        $url = self::getUrl() . '/employee/' . $employee_id . '/' . $date;
+        $url = self::getUrl() . 'employee/' . $employee_id . '/' . $date;
         $response = API::call($url);
 
         $formation = array();
