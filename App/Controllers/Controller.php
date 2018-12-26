@@ -62,7 +62,6 @@ class Controller
             $_SESSION['flush'] = [];
         }
         return $_SESSION['flush'][$type]= $message;
-
     }
 
     /**
@@ -70,11 +69,10 @@ class Controller
      * @param $title
      * @return array
      */
-    public function display($title){
+    public function display($title)
+    {
         $employee = Employee::getEmployee($_SESSION['id']);
-
         return ['title'=> $title, 'footer' => Config::APPLI_NAME .' '. Config::APPLI_VERSION, 'employee' => $employee];
-
     }
 
 }

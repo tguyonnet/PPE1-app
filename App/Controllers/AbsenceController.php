@@ -21,6 +21,7 @@ class AbsenceController extends Controller
     public function index($request, $response)
     {
         $absences = Absence::getAllByEmployeeId($_SESSION['id']);
+
         return $this->view->render($response, 'absence.twig',['page' => self::display('Absence'), 'absences' => $absences]);
     }
 

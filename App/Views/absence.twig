@@ -20,7 +20,7 @@
 
                                         {% if(absences!=null) %}
 
-                                        <table class="table table-striped table-bordered table-hover">
+                                            <table class="table table-striped table-bordered table-hover">
                                             <thead>
                                             <tr>
                                                 <th>Date de début</th>
@@ -32,19 +32,19 @@
 
                                             <tbody>
 
-                                            {% for absence in absences %}
+                                        {% for absence in absences %}
 
                                             <tr><td> {{ absence.getStartDate()  }} </td><td>{{ absence.getEndDate() }} </td><td>{{ absence.getAbsencePattern() }}</td><td>{{ absence.getType() }}</td></tr>
 
-                                            {% endfor %}
-                                            {% else %}
-                                                Vous n'avez pas d'asbences.
-
-                                            {% endif %}
-
-
+                                        {% endfor %}
+                                            </table>
                                             </tbody>
-                                        </table>
+                                        {% else %}
+
+                                            Vous n'avez pas d'asbences.
+
+                                        {% endif %}
+
                                     </div>
                                     <!-- /.table-responsive -->
                                 </div>

@@ -8,6 +8,8 @@
 
 namespace Controllers;
 
+use Models\Career;
+
 class CarriereController extends Controller
 {
     /**
@@ -18,7 +20,9 @@ class CarriereController extends Controller
      */
     public function index($request, $response)
     {
-        return $this->view->render($response, 'carriere.twig',['page' => self::display('Carriere')]);
+        $posts =  Career::getCareerEmployeePost($_SESSION['id']);
+        var_dump($posts);
+        return $this->view->render($response, 'carriere.twig',['page' => self::display('Carriere'), 'posts' => $posts ]);
     }
 
 }
