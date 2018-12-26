@@ -9,6 +9,7 @@
 namespace Controllers;
 
 use Models\Career;
+use Models\Post;
 
 class CarriereController extends Controller
 {
@@ -21,7 +22,17 @@ class CarriereController extends Controller
     public function index($request, $response)
     {
         $posts =  Career::getCareerEmployeePost($_SESSION['id']);
-        var_dump($posts);
+
+        $detail = Post::getCareerEmployeePostDetails($_SESSION['id'], $posts[0]->getId());
+        var_dump($detail);
+
+//        $details= array();
+//        foreach ($posts as $post){
+////            $details += Post::getCareerEmployeePostDetails($_SESSION['id'], $post->getId());
+//            var_dump($post->getId());
+//        }
+
+
         return $this->view->render($response, 'carriere.twig',['page' => self::display('Carriere'), 'posts' => $posts ]);
     }
 
