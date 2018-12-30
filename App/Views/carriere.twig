@@ -30,7 +30,10 @@
                                         <tbody>
 
                                         {% for post in posts %}
-                                            <tr><td> {{ post.getPostLibelle()  }} </td><td>{{ post.getMission() }} </td></tr>
+                                            <tr>
+                                                <td><a href="{{ path_for('poste') }}"> <input name="id" type="hidden"{{ post.getId() }}>{{ post.getPostLibelle() }}</a></td>
+                                                <td>{{ post.getMission() }} </td>
+                                            </tr>
                                         {% endfor %}
 
                                         </tbody>
@@ -47,58 +50,6 @@
                         </div>
                         <!-- /.panel -->
                     </div>
-
-                    <!-- Post details  !-->
-                    <div class="row">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                Détail du poste {{ detail.getPostLibelle() }}
-                            </div>
-                            <div class="panel-body">
-                                <div class="table-responsive">
-
-                                    <p> <strong>Libellé:</strong> {{ detail.getPostLibelle() }} </p>
-                                    <p>  <strong>Mission:</strong> {{ detail.getMission() }} </p>
-                                    <p>  <strong>Salaire:</strong> {{ detail.getSalary() }}€ </p>
-                                    <p>  <strong>Date d'embauche:</strong> {{ detail.getHiringDate() }} </p>
-
-                                    {% if detail.getTermination() != null %}
-                                        <p>  <strong>Date de licenciement:</strong> {{ detail.getTermination() }} </p>
-                                    {% elseif detail.getRetirement() != null %}
-                                        <p>  <strong>Date de retraite:</strong> {{ detail.getRetirement() }} </p>
-                                    {% elseif detail.getDeparture() != null %}
-                                        <p>  <strong>Date de démission:</strong> {{ detail.getDeparture() }} </p>
-                                    {% endif %}
-                                </div>
-
-
-                                {% if detail.getBounty() != null %}
-                                <p> <strong>Prime:</strong></p>
-
-                                <table class="table table-striped table-bordered table-hover">
-                                    <thead>
-                                    <tr>
-                                        <th>Montant</th>
-                                        <th>Date</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    {% for bounty in detail.getBounty() %}
-                                        <tr><td> {{ bounty.getAmount() }}€ </td><td>{{ bounty.getDate() }} </td></tr>
-                                    {% endfor %}
-                                    </tbody>
-                                    {% endif %}
-                                </table>
-
-
-
-
-                            </div>
-                            <!-- /.panel-body -->
-                        </div>
-                        <!-- /.panel -->
-                    </div>
-
 
 
 

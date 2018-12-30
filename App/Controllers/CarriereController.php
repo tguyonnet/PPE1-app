@@ -19,15 +19,24 @@ class CarriereController extends Controller
      * @param $response
      * @return mixed
      */
-    public function index($request, $response)
+    public function indexCarriere($request, $response)
     {
         $posts =  Career::getCareerEmployeePost($_SESSION['id']);
 
         $detail = Post::getCareerEmployeePostDetails($_SESSION['id'], $posts[0]->getId());
-//        var_dump($detail);
-
-
         return $this->view->render($response, 'carriere.twig',['page' => self::display('Carriere'), 'posts' => $posts, 'detail' => $detail]);
     }
+
+
+    public function indexPoste($request, $response)
+    {
+        $id = $request->getParam('id');
+        var_dump($request->getParam('id'));
+
+        $detail = Post::getCareerEmployeePostDetails($_SESSION['id'], $id);
+        return $this->view->render($response, 'poste.twig',['page' => self::display('Poste'), 'detail' => $detail]);
+    }
+
+
 }
 

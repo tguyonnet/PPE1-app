@@ -36,9 +36,10 @@ $app->add(new \Middleware\IsConnected());
 
 
 $app->get('/Formation', \Controllers\FormationController::class . ':index')->setName('formation');
-$app->get('/Carriere', \Controllers\CarriereController::class . ':index')->setName('carriere');
+$app->get('/Carriere', \Controllers\CarriereController::class . ':indexCarriere')->setName('carriere');
 $app->get('/Absence', \Controllers\AbsenceController::class . ':index')->setName('absence');
 $app->get('/Dashboard', \Controllers\DashboardController::class . ':index')->setName('dashboard');
+$app->get('/Poste', \Controllers\CarriereController::class . ':indexPoste')->setName('poste');
 
 $app->get('/Deconnexion', \Controllers\ConnexionController::class . ':getLogout')->setName('logout');
 $app->get('/Connexion', \Controllers\ConnexionController::class . ':getLogin')->setName('login');
