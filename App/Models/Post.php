@@ -7,8 +7,6 @@
  */
 
 namespace Models;
-
-
 use Core\Config;
 
 class Post
@@ -133,13 +131,20 @@ class Post
         $response = API::call($url);
 
         $details = array();
-        foreach ($response->data as $one)
-        {
-            $details[] = new Post($one->post_libelle, $one->mission, $one->salary, $one->hiring_date, $one->bounty, $one->termination, $one->retirnement, $one->departure);
+        $bounty = array();
+
+        if ($response->data->bounty != [] ){
+            foreach ($response->data->bounty as $oneBounty)
+            {
+                $bounty[] = new Bounty($oneBounty->id, $oneBounty->amount, $oneBounty->date, $oneBounty->salary_id);
+            }
         }
+        $details = new Post($response->data->post_libelle, $response->data->mission, $response->data->salary, $response->data->hiring_date, $bounty, $response->data->termination, $response->data->retirement, $response->data->departure);
         return $details;
     }
 
 
 
 }
+
+

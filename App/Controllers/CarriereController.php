@@ -24,17 +24,10 @@ class CarriereController extends Controller
         $posts =  Career::getCareerEmployeePost($_SESSION['id']);
 
         $detail = Post::getCareerEmployeePostDetails($_SESSION['id'], $posts[0]->getId());
-        var_dump($detail);
-
-//        $details= array();
-//        foreach ($posts as $post){
-////            $details += Post::getCareerEmployeePostDetails($_SESSION['id'], $post->getId());
-//            var_dump($post->getId());
-//        }
+//        var_dump($detail);
 
 
-        return $this->view->render($response, 'carriere.twig',['page' => self::display('Carriere'), 'posts' => $posts ]);
+        return $this->view->render($response, 'carriere.twig',['page' => self::display('Carriere'), 'posts' => $posts, 'detail' => $detail]);
     }
-
 }
 
