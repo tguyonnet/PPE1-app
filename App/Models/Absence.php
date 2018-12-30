@@ -137,7 +137,6 @@ class Absence
         $absences = array();
         foreach ($response->data as $one)
         {
-            var_dump($one);
             $absences[] = new Absence($one->id, $one->start_date, $one->end_date, $one->absence_pattern, $one->type, $one->employee_id);
         }
         return $absences;
