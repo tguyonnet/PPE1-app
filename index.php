@@ -6,7 +6,7 @@ require __DIR__.'/vendor/autoload.php';
 session_start();
 
 
-$config['displayErrorDetails'] = true;
+$config['displayErrorDetails'] = false;
 $config['addContentLengthHeader'] = false;
 
 $app = new \Slim\App(['settings' => $config]);
@@ -39,14 +39,11 @@ $app->get('/Formation', \Controllers\FormationController::class . ':index')->set
 $app->get('/Carriere', \Controllers\CarriereController::class . ':indexCarriere')->setName('carriere');
 $app->get('/Absence', \Controllers\AbsenceController::class . ':index')->setName('absence');
 $app->get('/Dashboard', \Controllers\DashboardController::class . ':index')->setName('dashboard');
-$app->get('/Poste', \Controllers\CarriereController::class . ':indexPoste')->setName('poste');
+$app->get('/Poste/{post_id}', \Controllers\CarriereController::class . ':indexPoste')->setName('poste');
+
 
 $app->get('/Deconnexion', \Controllers\ConnexionController::class . ':getLogout')->setName('logout');
 $app->get('/Connexion', \Controllers\ConnexionController::class . ':getLogin')->setName('login');
 $app->post('/Connexion', \Controllers\ConnexionController::class . ':postLogin');
-
-
-
-
 
 $app->run();

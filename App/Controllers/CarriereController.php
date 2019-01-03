@@ -13,6 +13,7 @@ use Models\Post;
 
 class CarriereController extends Controller
 {
+
     /**
      * Afficher la vue carriere.twig
      * @param $request
@@ -22,18 +23,21 @@ class CarriereController extends Controller
     public function indexCarriere($request, $response)
     {
         $posts =  Career::getCareerEmployeePost($_SESSION['id']);
-
         $detail = Post::getCareerEmployeePostDetails($_SESSION['id'], $posts[0]->getId());
         return $this->view->render($response, 'carriere.twig',['page' => self::display('Carriere'), 'posts' => $posts, 'detail' => $detail]);
     }
 
 
-    public function indexPoste($request, $response)
+    /**
+     * Afficher la vue poste.twig
+     * @param $request
+     * @param $response
+     * @param $args
+     * @return mixed
+     */
+    public function indexPoste($request, $response, $args)
     {
-        $id = $request->getParam('id');
-        var_dump($request->getParam('id'));
-
-        $detail = Post::getCareerEmployeePostDetails($_SESSION['id'], $id);
+        $detail = Post::getCareerEmployeePostDetails($_SESSION['id'], $args['post_id']);
         return $this->view->render($response, 'poste.twig',['page' => self::display('Poste'), 'detail' => $detail]);
     }
 

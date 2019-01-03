@@ -31,7 +31,7 @@
 
                                         {% for post in posts %}
                                             <tr>
-                                                <td><a href="{{ path_for('poste') }}"> <input name="id" type="hidden"{{ post.getId() }}>{{ post.getPostLibelle() }}</a></td>
+                                                <td><a href="{{ path_for('poste', {'post_id':post.getId()} ) }}">{{ post.getPostLibelle() }}</a></td>
                                                 <td>{{ post.getMission() }} </td>
                                             </tr>
                                         {% endfor %}
