@@ -88,6 +88,7 @@ class Career
         {
             $posts[] = new Career($one->id, $one->post_libelle, $one->mission, $one->career_id);
         }
+        //var_dump($posts);
         return $posts;
     }
 
