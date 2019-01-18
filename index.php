@@ -32,6 +32,8 @@ $container['view'] = function ($container){
 //Middleware
 $app->add(new \Middleware\IsConnected());
 
+$app->get('/AddFormation', \Controllers\FormationController::class . ':addFormation')->setName('form_formation');
+$app->get('/AddAbsence', \Controllers\AbsenceController::class . ':addAbsence')->setName('form_absence');
 
 
 

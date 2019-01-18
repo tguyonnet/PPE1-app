@@ -2,9 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ff984a-2c3e-4e5c-bffb-aa450a3fca35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/App/Views/form_absence.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Views/form_formation.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Models/Career.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Career.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/login.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/login.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/AbsenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/AbsenceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/FormationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/FormationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/absence.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/absence.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/formation.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/formation.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/template/footer-sb-admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/template/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/template/head.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/template/header-sb-admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/template/menu-sb-admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/template/menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/CallableResolver.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/CallableResolver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/CallableResolverAwareTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/CallableResolverAwareTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Container.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/DefaultServicesProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/DefaultServicesProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/DeferredCallable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/DeferredCallable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/ContainerException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/ContainerException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/ContainerValueNotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/ContainerValueNotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/InvalidMethodException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/InvalidMethodException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/MethodNotAllowedException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/MethodNotAllowedException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/NotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/NotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/SlimException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/SlimException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/AbstractError.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/AbstractError.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/AbstractHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/AbstractHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/Error.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/Error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/NotAllowed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/NotAllowed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/NotFound.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/NotFound.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/PhpError.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/PhpError.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponseArgs.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponseArgs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Body.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Body.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Cookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Cookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Environment.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Environment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Headers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Headers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/RequestBody.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/RequestBody.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/StatusCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/StatusCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Stream.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Stream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/UploadedFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/UploadedFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Uri.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Uri.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/CallableResolverInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/CallableResolverInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/CollectionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/CollectionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/Http/CookiesInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/Http/CookiesInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/Http/EnvironmentInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/Http/EnvironmentInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/Http/HeadersInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/Http/HeadersInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/InvocationStrategyInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/InvocationStrategyInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/RouteGroupInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/RouteGroupInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/RouteInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/RouteInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/RouterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/RouterInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/MiddlewareAwareTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/MiddlewareAwareTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Routable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Routable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/RouteGroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/RouteGroup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/Slim/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/slim/slim/composer.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,19 +82,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Models/Career.php">
+        <entry file="file://$PROJECT_DIR$/App/Controllers/FormationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+            <state relative-caret-position="315">
+              <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/Views/login.twig">
+        <entry file="file://$PROJECT_DIR$/App/Views/form_formation.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/formation.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="165" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="165" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="102" selection-start-line="35" selection-start-column="102" selection-end-line="35" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/form_absence.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+              <caret line="16" selection-start-line="5" selection-end-line="16" />
+              <folding>
+                <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Controllers/AbsenceController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/absence.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -53,8 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../GlobAgence-e0_v2/App/V/LigueController/listeAction.php" />
-        <option value="$PROJECT_DIR$/../Heppner-master/App/Templates/Vehicule/listeTemplate.php" />
         <option value="$PROJECT_DIR$/App/Models/connexion.php" />
         <option value="$PROJECT_DIR$/App/Views/template/footer.php" />
         <option value="$PROJECT_DIR$/App/Views/template/header-sb-admin.php" />
@@ -85,25 +197,27 @@
         <option value="$PROJECT_DIR$/App/Models/Employee.php" />
         <option value="$PROJECT_DIR$/App/Controllers/ConnexionController.php" />
         <option value="$PROJECT_DIR$/App/Models/Formation.php" />
-        <option value="$PROJECT_DIR$/App/Controllers/FormationController.php" />
         <option value="$PROJECT_DIR$/../sanofi_api_v0/index.php" />
         <option value="$PROJECT_DIR$/../sanofi_api_v0/app/Controllers/Career.php" />
         <option value="$PROJECT_DIR$/App/Controllers/Controller.php" />
-        <option value="$PROJECT_DIR$/App/Controllers/AbsenceController.php" />
-        <option value="$PROJECT_DIR$/App/Views/absence.twig" />
         <option value="$PROJECT_DIR$/App/Models/Bounty.php" />
         <option value="$PROJECT_DIR$/App/Models/Post.php" />
-        <option value="$PROJECT_DIR$/App/Views/formation.twig" />
-        <option value="$PROJECT_DIR$/App/Models/Absence.php" />
         <option value="$PROJECT_DIR$/App/Views/carriere.twig" />
         <option value="$PROJECT_DIR$/App/Views/poste.twig" />
         <option value="$PROJECT_DIR$/App/Controllers/CarriereController.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/App/Views/layout.twig" />
         <option value="$PROJECT_DIR$/App/Controllers/DashboardController.php" />
         <option value="$PROJECT_DIR$/App/Views/dashboard.twig" />
         <option value="$PROJECT_DIR$/App/Models/Career.php" />
         <option value="$PROJECT_DIR$/App/Views/login.twig" />
+        <option value="$PROJECT_DIR$/App/Models/Absence.php" />
+        <option value="$PROJECT_DIR$/App/Views/formation.twig" />
+        <option value="$PROJECT_DIR$/App/Controllers/FormationController.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/AbsenceController.php" />
+        <option value="$PROJECT_DIR$/App/Views/absence.twig" />
+        <option value="$PROJECT_DIR$/App/Views/form_absence.twig" />
+        <option value="$PROJECT_DIR$/App/Views/form_formation.twig" />
       </list>
     </option>
   </component>
@@ -124,10 +238,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="304" />
-    <option name="y" value="219" />
-    <option name="width" value="1430" />
-    <option name="height" value="673" />
+    <option name="x" value="1919" />
+    <option name="width" value="1922" />
+    <option name="height" value="1081" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,49 +253,25 @@
         <subPane>
           <expand>
             <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="PPE1_app_v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPE1_app_v1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="PPE1_app_v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPE1_app_v1" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="PPE1_app_v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPE1_app_v1" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
+              <item name="PPE1_app_v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPE1_app_v1" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="sb-admin2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sanofi_app_v0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sanofi_app_v0" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="sb-admin2" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,6 +281,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Twig" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -199,17 +289,17 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/App/Models" />
-      <recent name="$PROJECT_DIR$/Core" />
-      <recent name="$PROJECT_DIR$/App/Views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/App/Views" />
       <recent name="$PROJECT_DIR$/App/Controllers" />
       <recent name="$PROJECT_DIR$/App/Models" />
       <recent name="$PROJECT_DIR$/App/V" />
       <recent name="$PROJECT_DIR$/App/Templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App/Models" />
+      <recent name="$PROJECT_DIR$/Core" />
+      <recent name="$PROJECT_DIR$/App/Views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -277,6 +367,10 @@
       <workItem from="1546522390635" duration="6914000" />
       <workItem from="1546612046008" duration="106000" />
       <workItem from="1546612297106" duration="827000" />
+      <workItem from="1547753078493" duration="91000" />
+      <workItem from="1547834577498" duration="188000" />
+      <workItem from="1547834842823" duration="70000" />
+      <workItem from="1547835867809" duration="1144000" />
     </task>
     <task id="LOCAL-00007" summary="update indexFaker">
       <created>1543608052110</created>
@@ -625,14 +719,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181896000" />
+    <option name="totallyTimeSpent" value="183389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75828874" visible="true" weight="0.17662753" />
-      <window_info id="Structure" order="1" sideWeight="0.24171123" side_tool="true" visible="true" weight="0.17662753" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7540107" visible="true" weight="0.18516542" />
+      <window_info id="Structure" order="1" sideWeight="0.24598931" side_tool="true" visible="true" weight="0.18516542" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32406417" />
@@ -644,7 +738,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33375958" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33368984" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="12" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -688,40 +782,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="update dashboard" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/connexion.php" />
-    <entry file="file://$PROJECT_DIR$/App/Views/template/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/accueil.php" />
-    <entry file="file://$PROJECT_DIR$/App/Controllers/HomeController.php" />
-    <entry file="file://$PROJECT_DIR$/App/Controllers/absenceControllers.php" />
-    <entry file="file://$PROJECT_DIR$/App/Views/head.twig" />
     <entry file="file://$PROJECT_DIR$/App/Views/absence.php" />
-    <entry file="file://$PROJECT_DIR$/Core/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Controllers/connexionControllers.php" />
     <entry file="file://$PROJECT_DIR$/App/Controllers/formationControllers.php" />
     <entry file="file://$PROJECT_DIR$/App/Views/formation.php" />
@@ -764,27 +825,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/View.php" />
-    <entry file="file://$PROJECT_DIR$/App/Views/template/header-sb-admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/template/menu-sb-admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="19" column="75" lean-forward="true" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Models/API.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -844,20 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/formation.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Models/Absence.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -902,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/sb-admin2/pages/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -923,13 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controllers/AbsenceController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" selection-start-line="22" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Controllers/CarriereController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -937,13 +949,6 @@
           <folding>
             <element signature="e#113#131#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controllers/FormationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="99" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
         </state>
       </provider>
     </entry>
@@ -957,20 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/layout.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="58" column="52" lean-forward="true" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/absence.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="120" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/carriere.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -978,10 +969,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/dashboard.twig">
+    <entry file="file://$PROJECT_DIR$/App/Views/login.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
         </state>
       </provider>
     </entry>
@@ -992,10 +983,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/login.twig">
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/API.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Absence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/sb-admin2/js/sb-admin-2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/template/header-sb-admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/template/head.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/template/menu.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/template/menu-sb-admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="19" column="75" lean-forward="true" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="88" column="60" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/FormationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/dashboard.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="68" column="30" lean-forward="true" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="102" selection-start-line="35" selection-start-column="102" selection-end-line="35" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/AbsenceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/absence.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/form_absence.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+          <caret line="16" selection-start-line="5" selection-end-line="16" />
+          <folding>
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/formation.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="165" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/form_formation.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

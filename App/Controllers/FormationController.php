@@ -24,5 +24,16 @@ class FormationController extends Controller
         return $this->view->render($response, 'formation.twig', ['page' => self::display('Formation'), 'formations' => $formations]);
     }
 
+    /**
+     * Affiche la vue form_formation.twig
+     * @param $request
+     * @param $response
+     * @return mixed
+     */
+    public function addFormation($request, $response)
+    {
+        return $this->view->render($response, 'form_formation.twig', ['page' => self::display('Formation')]);
+    }
+
 }
 

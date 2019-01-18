@@ -25,5 +25,16 @@ class AbsenceController extends Controller
         return $this->view->render($response, 'absence.twig',['page' => self::display('Absence'), 'absences' => $absences]);
     }
 
+    /**
+     * Afficer la vue form_absence.twig
+     * @param $request
+     * @param $response
+     * @return mixed
+     */
+    public function addAbsence($request, $response)
+    {
+        return $this->view->render($response, 'form_absence.twig',['page' => self::display('Absence')]);
+    }
+
 }
 
