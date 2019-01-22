@@ -32,13 +32,21 @@ $container['view'] = function ($container){
 //Middleware
 $app->add(new \Middleware\IsConnected());
 
-$app->get('/AddFormation', \Controllers\FormationController::class . ':addFormation')->setName('form_formation');
+$app->get('/Formation', \Controllers\FormationController::class . ':index')->setName('formation');
+$app->get('/Formation/ajouter', \Controllers\FormationController::class . ':addFormation')->setName('form_formation');
+$app->get('/Formation/modifier/{id}', \Controllers\FormationController::class . ':editFormation')->setName('edit_formation');
+$app->get('/Formation/supprimer/{id}', \Controllers\FormationController::class . ':deleteFormation')->setName('delete_formation');
+
+
+
+
+
+
 $app->get('/AddAbsence', \Controllers\AbsenceController::class . ':addAbsence')->setName('form_absence');
 
 
 
 $app->get('/Parametre', \Controllers\ParametreController::class . ':index')->setName('parametre');
-$app->get('/Formation', \Controllers\FormationController::class . ':index')->setName('formation');
 $app->get('/Carriere', \Controllers\CarriereController::class . ':indexCarriere')->setName('carriere');
 $app->get('/Absence', \Controllers\AbsenceController::class . ':index')->setName('absence');
 $app->get('/Dashboard', \Controllers\DashboardController::class . ':index')->setName('dashboard');

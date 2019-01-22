@@ -69,10 +69,10 @@ class Controller
      * @param $title
      * @return array
      */
-    public function display($title)
+    public function display($title, $chemin=null)
     {
         $employee = Employee::getEmployee($_SESSION['id']);
-        return ['title'=> $title, 'footer' => Config::APPLI_NAME .' '. Config::APPLI_VERSION, 'employee' => $employee];
+        return ['title'=> $title, 'chemin'=>$chemin,  'footer' => Config::APPLI_NAME .' '. Config::APPLI_VERSION, 'employee' => $employee];
     }
 
 }
