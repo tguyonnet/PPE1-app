@@ -37,6 +37,7 @@ $app->get('/AddAbsence', \Controllers\AbsenceController::class . ':addAbsence')-
 
 
 
+$app->get('/Parametre', \Controllers\ParametreController::class . ':index')->setName('parametre');
 $app->get('/Formation', \Controllers\FormationController::class . ':index')->setName('formation');
 $app->get('/Carriere', \Controllers\CarriereController::class . ':indexCarriere')->setName('carriere');
 $app->get('/Absence', \Controllers\AbsenceController::class . ':index')->setName('absence');
