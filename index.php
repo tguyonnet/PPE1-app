@@ -32,29 +32,30 @@ $container['view'] = function ($container){
 //Middleware
 $app->add(new \Middleware\IsConnected());
 
+
+## Formation
 $app->get('/Formation', \Controllers\FormationController::class . ':index')->setName('formation');
-$app->get('/Formation/ajouter', \Controllers\FormationController::class . ':addFormation')->setName('form_formation');
-$app->get('/Formation/modifier/{id}', \Controllers\FormationController::class . ':editFormation')->setName('edit_formation');
+$app->get('/Formation/ajouter', \Controllers\FormationController::class . ':addFormation')->setName('add_formation');
 $app->get('/Formation/supprimer/{id}', \Controllers\FormationController::class . ':deleteFormation')->setName('delete_formation');
 
-
-
-
-
-
-$app->get('/AddAbsence', \Controllers\AbsenceController::class . ':addAbsence')->setName('form_absence');
-
-
-
-$app->get('/Parametre', \Controllers\ParametreController::class . ':index')->setName('parametre');
-$app->get('/Carriere', \Controllers\CarriereController::class . ':indexCarriere')->setName('carriere');
+## Absence
 $app->get('/Absence', \Controllers\AbsenceController::class . ':index')->setName('absence');
-$app->get('/Dashboard', \Controllers\DashboardController::class . ':index')->setName('dashboard');
+$app->get('/Absence/ajouter', \Controllers\AbsenceController::class . ':addAbsence')->setName('add_absence');
+$app->get('/Absence/modifier/{absence_id}', \Controllers\AbsenceController::class . ':editAbsence')->setName('edit_absence');
+$app->post('/Absence/modifier/{absence_id}', \Controllers\AbsenceController::class . ':editAbsenceTraitement')->setName('edit_absenceTraitement');
+
+## Carriere
+$app->get('/Carriere', \Controllers\CarriereController::class . ':indexCarriere')->setName('carriere');
 $app->get('/Poste/{post_id}', \Controllers\CarriereController::class . ':indexPoste')->setName('poste');
 
-
+## Connexion
 $app->get('/Deconnexion', \Controllers\ConnexionController::class . ':getLogout')->setName('logout');
 $app->get('/Connexion', \Controllers\ConnexionController::class . ':getLogin')->setName('login');
 $app->post('/Connexion', \Controllers\ConnexionController::class . ':postLogin');
+
+## General
+$app->get('/Parametre', \Controllers\ParametreController::class . ':index')->setName('parametre');
+$app->get('/Dashboard', \Controllers\DashboardController::class . ':index')->setName('dashboard');
+
 
 $app->run();

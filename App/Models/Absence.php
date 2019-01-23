@@ -143,6 +143,26 @@ class Absence
     }
 
     /**
+     * Renvoi les détails d'une absence en fonction de son id
+     * @param $employeeId
+     * @return array
+     */
+    public static function getAbsenceId($id)
+    {
+        $url = self::getUrl() . '/' . $id;
+        $response = API::call($url);
+
+        $absences = array();
+        foreach ($response as $one)
+        {
+            $absences[] = new Absence($one->id, $one->start_date, $one->end_date, $one->absence_pattern, $one->type, $one->employee_id);
+        }
+        return $absences;
+    }
+
+
+
+    /**
      * Renvoi une absence en fonction d'une date.
      * @param $date
      * @return mixed|string
@@ -214,6 +234,23 @@ class Absence
         }
         return $absences;
     }
+
+
+    /**
+     * @param $id
+     * @param $start_date
+     * @param $end_date
+     * @param $absence_pattern
+     * @param $type
+     * @param $employee_id
+     * @return mixed|string
+     */
+    public static function updateAbsence($id, $start_date, $end_date, $absence_pattern, $type, $employee_id)
+    {
+        $url = self::getUrl() . '/update/'.$id.'/'.$start_date.'/'.$end_date.'/'.$absence_pattern.'/'.$type.'/'.$employee_id;
+        return API::call($url);
+    }
+
 
 
 

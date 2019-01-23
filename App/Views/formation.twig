@@ -7,7 +7,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">{{ page.title }} <a href="{{ path_for('form_formation') }}"><i class="fa fa-plus-circle" aria-hidden="true"></i></a></h1>
+                    <h1 class="page-header">{{ page.title }} <a href="{{ path_for('add_formation') }}"><i class="fa fa-plus-circle" aria-hidden="true"></i></a></h1>
                     <div class="row">
                         <div class="panel panel-default">
                             <div class="panel-heading">
@@ -34,7 +34,6 @@
                                             <tr>
                                                 <td> {{ formation.getDate()  }} </td>
                                                 <td> {{ formation.getFormationLibelle()}} </td>
-                                                <td> <a href="Formation/modifier/{{ formation.getId() }}"><i class="fa fa-pencil" aria-hidden="true"></i></a> </td>
                                                 <td> <a href="Formation/supprimer/{{ formation.getId() }}"><i class="fa fa-times" aria-hidden="true"></i></a> </td>
                                             </tr>
 

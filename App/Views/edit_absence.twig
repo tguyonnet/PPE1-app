@@ -1,0 +1,60 @@
+{% extends 'layout.twig' %}
+
+{% block content %}
+
+
+    <div id="page-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">{{ page.title }}</h1>
+                    {% if(page.msg_err!=null) %}
+                    <div class="alert alert-info" role="alert">{{ page.msg_err }}</div>
+                    {% endif %}
+                    <div class="row">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Voici vos informations de votre absence</div>
+                            <div class="panel-body">
+                                <div class="col-md-4">
+
+                                    <form method="POST" action="{{ path_for('edit_absenceTraitement', {'absence_id':absence[0].getId()} ) }}">
+                                        <div class="form-group">
+                                            <label>Date de début (format : YYYY-mm-dd HH:mm:ss)</label>
+                                            <input class="form-control" type="text" name="start_date" required placeholder="Date de début" value="{{ absence[0].getStartDate() }}">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Date de fin (format : YYYY-mm-dd HH:mm:ss)</label>
+                                            <input class="form-control" type="text" name="end_date" required placeholder="Date de fin" value="{{ absence[0].getEndDate() }}">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Motif</label>
+                                            <input class="form-control" type="text" name="pattern" required  placeholder="Motif" value="{{ absence[0].getAbsencePattern() }}">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Type</label>
+                                            <input class="form-control" type="text" name="type" required placeholder="Type" value="{{ absence[0].getType() }}">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="hidden" name="id" value="{{ absence[0].getId() }}">
+                                            <button type="submit" name="modifier" >Modifier</button> <a href="{{ path_for('absence') }}"><button type="button"  value="Annuler">Annuler</button></a>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+
+
+{% block footer %}
+
+    {{ page.footer }}
+
+{% endblock %}

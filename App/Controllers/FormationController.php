@@ -36,18 +36,6 @@ class FormationController extends Controller
     }
 
     /**
-     * Affiche la vue edit_formation.twig
-     * @param $request
-     * @param $response
-     * @return mixed
-     */
-    public function editFormation($request, $response, $args)
-    {
-        var_dump($args['id']);
-        return $this->view->render($response, 'edit_formation.twig', ['page' => self::display('Formation', '../../')]);
-    }
-
-    /**
      * Affiche la vue delete_formation.twig
      * @param $request
      * @param $response
