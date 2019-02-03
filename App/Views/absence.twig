@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">{{ page.title }} <a href="{{ path_for('add_absence') }}"><i class="fa fa-plus-circle" aria-hidden="true"></i></a></h1>
+                    <h1 class="page-header">{{ page.title }} <a href="{{ path_for('addAbsence') }}"><i class="fa fa-plus-circle" aria-hidden="true"></i></a></h1>
                     <div class="row">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
@@ -42,7 +42,7 @@
                                                 <td>{{ absence.getAbsencePattern() }}</td>
                                                 <td>{{ absence.getType() }}</td>
                                                 <td><a href="{{ path_for('edit_absence', {'absence_id':absence.getId()} ) }}"> <i class="fa fa-pencil" aria-hidden="true"></i> </a></td>
-                                                {#<td><a href="{{ path_for('delete_absence', {'absence_id':absence.getId()} ) }}"> <i class="fa fa-times" aria-hidden="true"></i> </a></td>#}
+                                                <td><a href="{{ path_for('deleteAbsenceTraitement', {'absence_id':absence.getId()} ) }}"> <i class="fa fa-times" aria-hidden="true"></i> </a></td>
                                             </tr>
 
                                         {% endfor %}

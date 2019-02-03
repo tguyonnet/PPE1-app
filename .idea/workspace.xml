@@ -4,13 +4,15 @@
     <list default="true" id="63ff984a-2c3e-4e5c-bffb-aa450a3fca35" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Controllers/AbsenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/AbsenceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Controllers/FormationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/FormationController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Models/Absence.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Absence.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Models/Formation.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Formation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Views/absence.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/absence.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/edit_formation.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/edit_absence.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/form_absence.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/form_absence.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/edit_absence.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/edit_absence.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/form_absence.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/add_absence.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/form_formation.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/form_formation.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Views/formation.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/formation.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/parametre.twig" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/parametre.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,43 +25,34 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <executablePath>composer</executablePath>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PPE1_app_v1" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="41" column="89" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="89" />
+            <state relative-caret-position="435">
+              <caret line="49" column="93" selection-start-line="49" selection-start-column="93" selection-end-line="49" selection-end-column="93" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Controllers/AbsenceController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="44" column="40" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Controllers/Controller.php">
+        <entry file="file://$PROJECT_DIR$/App/Views/add_absence.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="71" column="63" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
-              <folding>
-                <element signature="e#113#129#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Models/Absence.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="245" column="27" selection-start-line="245" selection-start-column="27" selection-end-line="245" selection-end-column="27" />
+            <state relative-caret-position="540">
+              <caret line="36" column="64" lean-forward="true" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -67,8 +60,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Views/edit_absence.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="82" lean-forward="true" selection-start-line="38" selection-start-column="82" selection-end-line="38" selection-end-column="82" />
+            <state relative-caret-position="765">
+              <caret line="51" selection-start-line="5" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Models/Absence.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="265" column="26" selection-start-line="265" selection-start-column="26" selection-end-line="265" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -76,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Views/absence.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="10" column="96" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="96" />
+            <state relative-caret-position="60">
+              <caret line="10" column="87" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -101,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/App/Views/template/menu-sb-admin.php" />
         <option value="$PROJECT_DIR$/App/Views/accueil.php" />
         <option value="$PROJECT_DIR$/App/Views/carrierePage.php" />
         <option value="$PROJECT_DIR$/App/Views/formationPage.php" />
@@ -123,7 +124,6 @@
         <option value="$PROJECT_DIR$/App/Middleware/IsConnected.php" />
         <option value="$PROJECT_DIR$/App/Models/API.php" />
         <option value="$PROJECT_DIR$/App/Models/Employee.php" />
-        <option value="$PROJECT_DIR$/App/Models/Formation.php" />
         <option value="$PROJECT_DIR$/../sanofi_api_v0/index.php" />
         <option value="$PROJECT_DIR$/../sanofi_api_v0/app/Controllers/Career.php" />
         <option value="$PROJECT_DIR$/App/Models/Bounty.php" />
@@ -132,26 +132,28 @@
         <option value="$PROJECT_DIR$/App/Controllers/DashboardController.php" />
         <option value="$PROJECT_DIR$/App/Views/dashboard.twig" />
         <option value="$PROJECT_DIR$/App/Models/Career.php" />
-        <option value="$PROJECT_DIR$/App/Views/form_formation.twig" />
         <option value="$PROJECT_DIR$/App/Controllers/CarriereController.php" />
         <option value="$PROJECT_DIR$/Core/Config.php" />
         <option value="$PROJECT_DIR$/App/Controllers/ConnexionController.php" />
         <option value="$PROJECT_DIR$/App/Views/login.twig" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
-        <option value="$PROJECT_DIR$/App/Views/parametre.twig" />
         <option value="$PROJECT_DIR$/App/Controllers/ParametreController.php" />
         <option value="$PROJECT_DIR$/App/Views/layout.twig" />
         <option value="$PROJECT_DIR$/App/Views/form_absence.twig" />
         <option value="$PROJECT_DIR$/App/Views/edit_formation.twig" />
-        <option value="$PROJECT_DIR$/App/Views/formation.twig" />
         <option value="$PROJECT_DIR$/App/Views/carriere.twig" />
+        <option value="$PROJECT_DIR$/App/Controllers/Controller.php" />
+        <option value="$PROJECT_DIR$/App/Views/formation.twig" />
+        <option value="$PROJECT_DIR$/App/Views/edit_absence.twig" />
+        <option value="$PROJECT_DIR$/App/Views/form_formation.twig" />
+        <option value="$PROJECT_DIR$/App/Models/Formation.php" />
         <option value="$PROJECT_DIR$/App/Controllers/FormationController.php" />
         <option value="$PROJECT_DIR$/App/Views/absence.twig" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/App/Models/Absence.php" />
-        <option value="$PROJECT_DIR$/App/Controllers/Controller.php" />
-        <option value="$PROJECT_DIR$/App/Views/edit_absence.twig" />
+        <option value="$PROJECT_DIR$/App/Views/add_absence.twig" />
+        <option value="$PROJECT_DIR$/App/Views/parametre.twig" />
         <option value="$PROJECT_DIR$/App/Controllers/AbsenceController.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -223,7 +225,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Twig" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PPE1_api_v1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -318,13 +320,9 @@
       <workItem from="1548178539950" duration="4568000" />
       <workItem from="1548187217765" duration="273000" />
       <workItem from="1548263950890" duration="6927000" />
-    </task>
-    <task id="LOCAL-00010" summary="add files">
-      <created>1544105619022</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1544105619022</updated>
+      <workItem from="1548271008376" duration="43000" />
+      <workItem from="1548584059694" duration="71000" />
+      <workItem from="1549203453594" duration="5625000" />
     </task>
     <task id="LOCAL-00011" summary="add Absence">
       <created>1544105792385</created>
@@ -662,19 +660,26 @@
       <option name="project" value="LOCAL" />
       <updated>1548183105890</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="ajout la page modification d'une absence">
+      <created>1548271039744</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1548271039745</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196173000" />
+    <option name="totallyTimeSpent" value="201912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1918" height="903" extended-state="6" />
+    <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74545455" visible="true" weight="0.15454546" />
-      <window_info id="Structure" order="1" sideWeight="0.25454545" side_tool="true" weight="0.19850586" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.597861" visible="true" weight="0.15955175" />
+      <window_info id="Structure" order="1" sideWeight="0.40213904" side_tool="true" weight="0.15955175" />
+      <window_info id="Favorites" order="2" sideWeight="0.40213904" side_tool="true" weight="0.15955175" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32406417" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -701,7 +706,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../sanofi_v0" />
     </ignored-roots>
-    <MESSAGE value="update indexFaker" />
     <MESSAGE value="add Absence" />
     <MESSAGE value="add files" />
     <MESSAGE value="add sb-admin2" />
@@ -726,16 +730,10 @@
     <MESSAGE value="add form for formation - absence" />
     <MESSAGE value="ajout de la page parametre" />
     <MESSAGE value="ajout la page modification de la formation" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout la page modification de la formation" />
+    <MESSAGE value="ajout la page modification d'une absence" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout la page modification d'une absence" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="197" column="9" selection-start-line="197" selection-start-column="9" selection-end-line="197" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Request.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -866,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/form_formation.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Controllers/CarriereController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -921,20 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/parametre.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Models/Formation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/layout.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -942,20 +919,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/edit_formation.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/formation.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="36" column="105" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/edit_formation.twig" />
     <entry file="file://$PROJECT_DIR$/App/Views/poste.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -963,24 +927,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/form_absence.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/carriere.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controllers/FormationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -1008,23 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="71" column="63" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
-          <folding>
-            <element signature="e#113#129#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Models/Absence.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="245" column="27" selection-start-line="245" selection-start-column="27" selection-end-line="245" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date_c.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -1032,31 +965,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/App/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="41" column="89" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="89" />
+        <state relative-caret-position="744">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="e#113#129#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Formation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="169" column="52" selection-start-line="169" selection-start-column="52" selection-end-line="169" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/form_formation.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/formation.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/absence.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="10" column="96" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="96" />
+        <state relative-caret-position="60">
+          <caret line="10" column="87" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/Absence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="265" column="26" selection-start-line="265" selection-start-column="26" selection-end-line="265" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/FormationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="47" selection-start-line="47" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="914" column="9" selection-start-line="914" selection-start-column="9" selection-end-line="914" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/parametre.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/edit_absence.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="82" lean-forward="true" selection-start-line="38" selection-start-column="82" selection-end-line="38" selection-end-column="82" />
+        <state relative-caret-position="765">
+          <caret line="51" selection-start-line="5" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/add_absence.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="64" lean-forward="true" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Controllers/AbsenceController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="49" column="93" selection-start-line="49" selection-start-column="93" selection-end-line="49" selection-end-column="93" />
         </state>
       </provider>
     </entry>

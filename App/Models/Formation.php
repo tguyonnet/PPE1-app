@@ -98,6 +98,7 @@ class Formation
     {
         $url = self::getUrl() . 'date/' . $date;
         $response = API::call($url);
+        var_dump($url);
 
         $formation = array();
         foreach ($response->data as $one)
@@ -146,6 +147,28 @@ class Formation
             $formation[] = new Formation($one->id, $one->formation_libelle, $one->date);
         }
         return $formation;
+    }
+
+    /**
+     * @param $employee_id
+     * @param $formation_id
+     * @return mixed|string
+     */
+    public static function deleteFormation($employee_id, $formation_id)
+    {
+        $url = self::getUrl() . 'delete/'.$employee_id.'/'.$formation_id;
+        return API::call($url);
+    }
+
+    /**
+     * @param $employee_id
+     * @param $formation_id
+     * @return mixed|string
+     */
+    public static function addFormation($employee_id, $formation_id)
+    {
+        $url = self::getUrl() . 'add/'.$employee_id.'/'.$formation_id;
+        return API::call($url);
     }
 
 

@@ -200,7 +200,7 @@ class Absence
 
     /**
      * @param $employee_id
-     * @param $type
+     * @param $type///formation/delete/{employee_id}/{formation_id}
      * @return mixed|string
      */
     public static function getAbsenceEmployee_idType($employee_id, $type)
@@ -248,6 +248,33 @@ class Absence
     public static function updateAbsence($id, $start_date, $end_date, $absence_pattern, $type, $employee_id)
     {
         $url = self::getUrl() . '/update/'.$id.'/'.$start_date.'/'.$end_date.'/'.$absence_pattern.'/'.$type.'/'.$employee_id;
+        return API::call($url);
+    }
+
+
+    /**
+     * @param $id
+     * @return mixed|string
+     */
+    public static function deleteAbsence($id)
+    {
+        $url = self::getUrl() . '/delete/'.$id;
+        return API::call($url);
+    }
+
+    /**
+     * Ajouter une absence
+     * @param $start_date
+     * @param $end_date
+     * @param $absence_pattern
+     * @param $type
+     * @param $employee_id
+     * @return mixed|string
+     */
+    public static function addAbsence($start_date, $end_date, $absence_pattern, $type, $employee_id)
+    {
+        $url = self::getUrl() . '/add/'.$start_date.'/'.$end_date.'/'.$absence_pattern.'/'.$type.'/'.$employee_id;
+        var_dump($url);
         return API::call($url);
     }
 
