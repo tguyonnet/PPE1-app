@@ -72,7 +72,7 @@ class Controller
     public function display($title, $chemin=null, $msg_err=null)
     {
         $employee = Employee::getEmployee($_SESSION['id']);
-        return ['title'=> $title, 'msg_err' => $msg_err,  'chemin'=>$chemin,  'footer' => Config::APPLI_NAME .' '. Config::APPLI_VERSION, 'employee' => $employee];
+        return ['title'=> $title, 'msg_err' => $msg_err,  'chemin'=>$chemin,  'footer' => Config::APPLI_NAME .' - ', 'employee' => $employee];
     }
 
 }
