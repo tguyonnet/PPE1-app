@@ -11,6 +11,6 @@ class Config {
 	// Paramètres pour l'application
 	const APPLI_NAME    = 'Sanofi';
 	const APPLI_VERSION = 'v0';
-	const API_URL = 'api.test';
+	const API_URL = '172.21.5.206/api';
 }
 
